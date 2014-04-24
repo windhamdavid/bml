@@ -75,7 +75,7 @@
 							    </div>
 							    			    <div style="clear:both"></div>
 							    <input type="hidden" name="wp_stripe_form" value="1"/>
-							    <button type="submit" class="stripe-submit-button">Donate</button>
+							    <button type="submit" class="stripe-submit-button">Buy</button>
 							    <div class="stripe-spinner"></div>
 							</form>
 						</div>

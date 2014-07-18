@@ -3,30 +3,34 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <?php wp_head(); ?>
 </head>
 <body>
+<div id="skrollr-body">
+
 <div class="container">
 	<div class="twelve columns">
+
 		<div class="row clearfix">
 			<p>&nbsp;</p>
 		<div>
 		<div class="row clearfix">
 			<p>&nbsp;</p>
 		<div>
+
 		<div class="row clearfix">
-		<div class="six columns alpha">
+		<div class="six columns alpha" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
 		<img src="<?php echo get_template_directory_uri(); ?>/img/bml_thermo.png" style="float:right;"/>
 		</div>
 		<div class="six columns omega">
 		<div class="content">
 			<main class="main" role="main">
-				<div id="bml">
+				<div id="bml" data-0="position:static;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
 					<h3>September 27<sup>th</sup>, &nbsp;<span id="year">2014</span>.</h3>	
 				</div>
-				<div class="buy-love" style="margin:0 0 0 100px">
+				<div class="buy-love" style="margin:0 0 0 100px" data-0="position:static;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
 					<p>&nbsp;</p>
 					<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
 				</div>
@@ -85,14 +89,35 @@
 		</div>
 	</div>
 	</div>
+
+	<div class="row clearfix">
+		<p>&nbsp;</p>
+	<div>
+	<div class="row clearfix">
+		<p>&nbsp;</p>
+	<div>
+	<div class="row clearfix">
+		<p>&nbsp;</p>
+	<div>
 	<footer class="footer" role="info">
 	</footer>
+</div>
+	<div class="twelve columns alpha" data-0="opacity:0;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:.5;top:-10%;transform:rotate(-90deg);">
+	<img src="<?php echo get_template_directory_uri(); ?>/img/beemwo.jpg" style="float:right;"/>
+	</div>
 </div>
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.3.min.js"></script>
 <script>window.jQuery || document.write("<script src='<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.3.min.js'>\x3C/script>")</script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/skrollr.ie.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    var s = skrollr.init();
+    </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

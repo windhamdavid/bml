@@ -1,26 +1,36 @@
 <?php /* Template Name: BML */ ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang="en-US">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<title><?php wp_title( '|', true, 'right' ); ?></title>
+<meta name="description" content="David + Ginny">
+<meta property="og:title" content="Can't Buy Me Love"/>
+<meta property="og:url" content="https://cantbuymelove.org"/>
+<meta property="og:image" content="https://cantbuymelove.org/wp-content/themes/bml/img/bml_thermo.png"/>
+<meta property="og:site_name" content="Can't Buy Me Love"/>
+<meta property="og:description" content="David + Ginny"/>
+<title>D+G (Can't Buy Me Love)</title>
 <?php wp_head(); ?>
 </head>
 <body>
 <div id="skrollr-body">
 
 <div class="container">
-	<div class="twelve columns">
-
+	<div class="sixteen columns">
 		<div class="row clearfix">
 			<p>&nbsp;</p>
 		<div>
 		<div class="row clearfix">
 			<p>&nbsp;</p>
 		<div>
-
 		<div class="row clearfix">
+		<div id="menu" data-0="position:static;" data-top-top="position:fixed;bottom:0;">
+			<a href="#story" data-menu-top="300">Story</a>
+			<a href="#trip" data-menu-top="500">Trip</a>
+			<a href="#vows" data-menu-top="800">Vows</a>
+			<a href="#message" data-menu-top="1200">Message</a>
+		</div>
 		<div class="six columns alpha" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
 		<img src="<?php echo get_template_directory_uri(); ?>/img/bml_thermo.png" style="float:right;"/>
 		</div>
@@ -89,7 +99,7 @@
 		</div>
 	</div>
 	</div>
-
+	
 	<div class="row clearfix">
 		<p>&nbsp;</p>
 	<div>
@@ -98,13 +108,30 @@
 	<div>
 	<div class="row clearfix">
 		<p>&nbsp;</p>
+	<div>
+	<div class="row clearfix">
+		<p>&nbsp;</p>
+	<div>
+	<div class="row clearfix">
+		<span id="story">Story</span>
+		<p>Nulla scelerisque dictum leo, et rhoncus urna. Phasellus porta pharetra erat vel laoreet. Curabitur risus tortor, rhoncus non accumsan a, lacinia vel nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris placerat vehicula consectetur. Praesent fringilla facilisis quam. Vivamus consectetur bibendum metus, vel iaculis ante cursus in. Phasellus congue, erat vel elementum fermentum, arcu est sodales ligula, in feugiat mauris lacus sollicitudin lorem. Curabitur quis mattis leo. Proin egestas ullamcorper nulla, quis tempor lorem fermentum sed. Phasellus pharetra, massa non facilisis molestie, orci diam vehicula orci, sed pellentesque nunc eros nec libero. Quisque vulputate leo nec orci suscipit volutpat.</p>
+		<p>In urna eros, sagittis vitae dolor vitae, hendrerit convallis leo. Cras euismod sagittis felis, vitae imperdiet elit placerat ac. Curabitur sed massa ipsum. Mauris molestie dui in lorem ullamcorper lacinia. In pharetra sollicitudin dolor sed bibendum. Ut convallis nunc eu mi tincidunt iaculis nec eget leo. Nam quis aliquam urna. Mauris tempor, sem nec porttitor fringilla, dui felis placerat arcu, vel aliquet turpis ipsum nec turpis. Nunc sit amet diam massa. Nullam scelerisque elit ac magna aliquam, molestie placerat ipsum pretium. Quisque a lacus leo. Quisque et massa lacus. Mauris pellentesque elit tortor, eu semper dui mattis ac. Nam magna risus, lacinia nec sodales at, consequat eget tortor. Praesent sed ante sem. Mauris sodales enim eget mi feugiat lobortis.</p>
+	<div>
+	<div class="row clearfix">
+		<span id="trip">Trip</span>
+		<p>Nulla scelerisque dictum leo, et rhoncus urna. Phasellus porta pharetra erat vel laoreet. Curabitur risus tortor, rhoncus non accumsan a, lacinia vel nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris placerat vehicula consectetur. Praesent fringilla facilisis quam. Vivamus consectetur bibendum metus, vel iaculis ante cursus in. Phasellus congue, erat vel elementum fermentum, arcu est sodales ligula, in feugiat mauris lacus sollicitudin lorem. Curabitur quis mattis leo. Proin egestas ullamcorper nulla, quis tempor lorem fermentum sed. Phasellus pharetra, massa non facilisis molestie, orci diam vehicula orci, sed pellentesque nunc eros nec libero. Quisque vulputate leo nec orci suscipit volutpat.</p>
+		<p>In urna eros, sagittis vitae dolor vitae, hendrerit convallis leo. Cras euismod sagittis felis, vitae imperdiet elit placerat ac. Curabitur sed massa ipsum. Mauris molestie dui in lorem ullamcorper lacinia. In pharetra sollicitudin dolor sed bibendum. Ut convallis nunc eu mi tincidunt iaculis nec eget leo. Nam quis aliquam urna. Mauris tempor, sem nec porttitor fringilla, dui felis placerat arcu, vel aliquet turpis ipsum nec turpis. Nunc sit amet diam massa. Nullam scelerisque elit ac magna aliquam, molestie placerat ipsum pretium. Quisque a lacus leo. Quisque et massa lacus. Mauris pellentesque elit tortor, eu semper dui mattis ac. Nam magna risus, lacinia nec sodales at, consequat eget tortor. Praesent sed ante sem. Mauris sodales enim eget mi feugiat lobortis.</p>	
+	<div>
+	<div class="row clearfix">
+		<span class="vows">Vows</span>
+	<div>
+	<div class="row clearfix">
+		<span class="message">Message</span>
+		<p>Nulla scelerisque dictum leo, et rhoncus urna. Phasellus porta pharetra erat vel laoreet. Curabitur risus tortor, rhoncus non accumsan a, lacinia vel nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris placerat vehicula consectetur. Praesent fringilla facilisis quam. Vivamus consectetur bibendum metus, vel iaculis ante cursus in. Phasellus congue, erat vel elementum fermentum, arcu est sodales ligula, in feugiat mauris lacus sollicitudin lorem. Curabitur quis mattis leo. Proin egestas ullamcorper nulla, quis tempor lorem fermentum sed. Phasellus pharetra, massa non facilisis molestie, orci diam vehicula orci, sed pellentesque nunc eros nec libero. Quisque vulputate leo nec orci suscipit volutpat.</p>
 	<div>
 	<footer class="footer" role="info">
 	</footer>
 </div>
-	<div class="twelve columns alpha" data-0="opacity:0;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:.5;top:-10%;transform:rotate(-90deg);">
-	<img src="<?php echo get_template_directory_uri(); ?>/img/beemwo.jpg" style="float:right;"/>
-	</div>
 </div>
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.3.min.js"></script>

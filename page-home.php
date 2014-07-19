@@ -111,6 +111,7 @@
 <script>window.jQuery || document.write("<script src='<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.3.min.js'>\x3C/script>")</script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.menu.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
 <!--[if lt IE 9]>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/skrollr.ie.min.js"></script>

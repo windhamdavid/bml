@@ -1,8 +1,26 @@
 $(document).ready(function() {
 	$('#bml').countdown({until: new Date(2014, 9 - 1, 27)});
-	$("a#inline").fancybox({});
+	//$("a#inline").fancybox({});
+	$('a#inline').fancybox({
+	  padding: 0,
+	  helpers: {
+	    overlay: {
+	      locked: false
+	    }
+	  }
+	});
 });
 
+
+var s = skrollr.init({
+	edgeStrategy: 'set',
+	easing: {
+		WTF: Math.random,
+		inverted: function(p) {
+			return 1-p;
+		}
+	}
+});
 var s = skrollr.init(/*other stuff*/);
 
 //The options (second parameter) are all optional. The values shown are the default values.

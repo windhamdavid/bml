@@ -15,22 +15,40 @@
 </head>
 <body>
 <div id="skrollr-body">
+	<div id="menu" data-0="position:static;" data-top-top="position:fixed;bottom:30px;">
+		<a href="#story" data-menu-top="300">Story</a>
+		<a href="#trip" data-menu-top="500">Trip</a>
+		<a href="#vows" data-menu-top="800">Vows</a>
+		<a href="#message" data-menu-top="1200">Message</a>
+	</div>
+	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(135,206,250, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(135,206,250,1);color:rgb(135,206,250);" data-10000="top:0%;" data-12000="top:-100%;">
+		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
+			<h2>easing?</h2>
+			<p>sure.</p>
+			<p>let me dim the <span data-3900="" data-4900="color[swing]:rgb(135,206,250);" data-5900="color:rgb(135,206,250);">lights</span> for this one...</p>
+			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;">you can set easings for each property and define own easing functions</p>
+		</div>
 
+		<div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">linear</div>
+		<div class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">quadratic</div>
+		<div class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">cubic</div>
+		<div class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">swing</div>
+		<div class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">WTF</div>
+		<div class="drop" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">inverted</div>
+		<div class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">bounce</div>
+	</div>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
+	
+	
+	
+	
 <div class="container">
 	<div class="sixteen columns">
 		<div class="row clearfix">
-			<p>&nbsp;</p>
-		<div>
-		<div class="row clearfix">
-			<p>&nbsp;</p>
-		<div>
-		<div class="row clearfix">
-		<div id="menu" data-0="position:static;" data-top-top="position:fixed;bottom:0;">
-			<a href="#story" data-menu-top="300">Story</a>
-			<a href="#trip" data-menu-top="500">Trip</a>
-			<a href="#vows" data-menu-top="800">Vows</a>
-			<a href="#message" data-menu-top="1200">Message</a>
-		</div>
+			
 		<div class="six columns alpha" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
 		<img src="<?php echo get_template_directory_uri(); ?>/img/bml_thermo.png" style="float:right;"/>
 		</div>
@@ -44,6 +62,7 @@
 					<p>&nbsp;</p>
 					<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
 				</div>
+				
 				<div style="display:none">
 					<div id="buy-love">
 						<div id="wp-stripe-wrap">
@@ -95,23 +114,11 @@
 						</div>
 					</div>
 				</div>
+				
 			</main>
 		</div>
 	</div>
 	</div>
-	
-	<div class="row clearfix">
-		<p>&nbsp;</p>
-	<div>
-	<div class="row clearfix">
-		<p>&nbsp;</p>
-	<div>
-	<div class="row clearfix">
-		<p>&nbsp;</p>
-	<div>
-	<div class="row clearfix">
-		<p>&nbsp;</p>
-	<div>
 	<div class="row clearfix">
 		<span id="story">Story</span>
 		<p>Nulla scelerisque dictum leo, et rhoncus urna. Phasellus porta pharetra erat vel laoreet. Curabitur risus tortor, rhoncus non accumsan a, lacinia vel nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris placerat vehicula consectetur. Praesent fringilla facilisis quam. Vivamus consectetur bibendum metus, vel iaculis ante cursus in. Phasellus congue, erat vel elementum fermentum, arcu est sodales ligula, in feugiat mauris lacus sollicitudin lorem. Curabitur quis mattis leo. Proin egestas ullamcorper nulla, quis tempor lorem fermentum sed. Phasellus pharetra, massa non facilisis molestie, orci diam vehicula orci, sed pellentesque nunc eros nec libero. Quisque vulputate leo nec orci suscipit volutpat.</p>
@@ -124,10 +131,6 @@
 	<div>
 	<div class="row clearfix">
 		<span class="vows">Vows</span>
-	<div>
-	<div class="row clearfix">
-		<span class="message">Message</span>
-		<p>Nulla scelerisque dictum leo, et rhoncus urna. Phasellus porta pharetra erat vel laoreet. Curabitur risus tortor, rhoncus non accumsan a, lacinia vel nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris placerat vehicula consectetur. Praesent fringilla facilisis quam. Vivamus consectetur bibendum metus, vel iaculis ante cursus in. Phasellus congue, erat vel elementum fermentum, arcu est sodales ligula, in feugiat mauris lacus sollicitudin lorem. Curabitur quis mattis leo. Proin egestas ullamcorper nulla, quis tempor lorem fermentum sed. Phasellus pharetra, massa non facilisis molestie, orci diam vehicula orci, sed pellentesque nunc eros nec libero. Quisque vulputate leo nec orci suscipit volutpat.</p>
 	<div>
 	<footer class="footer" role="info">
 	</footer>

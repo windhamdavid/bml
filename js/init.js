@@ -3,7 +3,10 @@ $(document).ready(function() {
 	$("a#inline").fancybox({});
 });
 
-var s = skrollr.init();
+var s = skrollr.init({
+		
+	});
+	
 skrollr.menu.init(s, {
     animate: true,
     easing: 'sqrt',

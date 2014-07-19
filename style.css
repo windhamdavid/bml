@@ -123,66 +123,6 @@ a {color: royalblue;}
 a:visited {color: purple;}
 a:hover,a:focus,a:active {color: midnightblue;}
 
-/* #Skrollr  ================================================== */
-
-html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
-.skrollable {position:fixed;z-index:100;}
-.skrollr-mobile .skrollable {position:absolute;}
-.skrollable .skrollable {position:absolute;}
-.skrollable .skrollable .skrollable {position:static;}
-
-#bg1, #bg2, #bg3 {
-	z-index:50;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:url(img/bg.png) repeat 0 0;
-}
-#bg2 {z-index:49;background-image:url(img/bg2.png);}
-#bg3 {z-index:48;background-image:url(img/bg3.png);}
-
-#progress {
-	height:17px;
-	background:#444;
-	bottom:0;
-	z-index:200;
-}
-
-#scrollbar {
-	position:fixed;
-	right:2px;
-	height:50px;
-	width:6px;
-	background:#444;
-	background:rgba(0,0,0,0.6);
-	border:1px solid rgba(255,255,255,0.6);
-	z-index:300;
-	border-radius:3px;
-}
-.skrollr-desktop #scrollbar {display:none;}
-
-
-
-#intro {
-	width:80%;
-	top:120px;
-	margin-left:-70%;
-	padding:2em;
-	text-align:center;
-}
-.intro_ease {
-	width:100%;
-	height:100%;
-	background:#fff;
-}
-#intro2 {
-	width:80%;
-	top:120px;
-	margin-left:-70%;
-	padding:2em;
-	text-align:center;
-}
 
 h1.vibes {
 	font-family: 'Great Vibes', cursive;
@@ -205,15 +145,74 @@ p.vibes {
 	font-size:28px;
 	line-height:30px;
 }
+h4.beanie {
+	font-family: Reenie Beanie;
+	font-size:48px;
+}
 
+/* #Skrollr  ================================================== */
 
-#story {
-	top:2em;
-	padding:2em;
+html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
+.skrollable {position:fixed;z-index:100;}
+.skrollr-mobile .skrollable {position:absolute;}
+.skrollable .skrollable {position:absolute;}
+.skrollable .skrollable .skrollable {position:static;}
+#bg1, #bg2, #bg3 {z-index:50;top:0;left:0;width:100%;height:100%;background:url(img/bg.png) repeat 0 0;}
+#bg2 {z-index:49;background-image:url(img/bg2.png);}
+#bg3 {z-index:48;background-image:url(img/bg3.png);}
+#progress {height:17px;background:#fff;bottom:0;z-index:200;}
+#scrollbar {
+	position:fixed;
+	right:2px;
+	height:50px;
+	width:6px;
+	background:#444;
+	background:rgba(0,0,0,0.6);
+	border:1px solid rgba(255,255,255,0.6);
+	z-index:300;
+	border-radius:3px;
+}
+.skrollr-desktop #scrollbar {display:none;}
+.easing {
+	width:100%;
+	height:100%;
+}
+#easing {
+	width:100%;
+	height:100%;
+}
+
+#intro {
 	width:80%;
-	z-index:101;
+	top:120px;
+	margin-left:-70%;
+	padding:2em;
+	text-align:center;
+}
+.intro_ease {
+	width:100%;
+	height:100%;
+	background:#fff;
+}
+#intro2 {
+	width:80%;
+	top:120px;
+	margin-left:-70%;
+	padding:2em;
+	text-align:center;
+}
+#story_wrap {
+	width:100%;
+	height:100%;
+}
+#story {
+	top:200px;
+	padding:2em;
+	width:70%;
+	text-align:center;
 }
 #story_ease {
+	top:200px;
 	width:100%;
 	height:100%;
 }
@@ -240,68 +239,45 @@ p.vibes {
 }
 
 
-
-
-
-
+#trip {
+	width:100%;
+	height:100%;
+}
+.trip_container {
+	top:200px;
+	margin:200px;
+}
+	
+#vows {
+	width:100%;
+	height:100%;
+}
+#bml {
+	background:#fff;
+	height:300px;
+	margin:20px;
+}
 
 
 
 /* #BML  ================================================== */
 
-#bml { width: 400px; height: 45px; margin: 90px 20px 5px;}
+#bml { width: 450px; height: 55px; margin:0;}
 
-.hasCountdown {
-	background-color: #fff;
-}
-.countdown_rtl {
-	direction: rtl;
-}
-.countdown_holding span {
-	color: #000;
-}
-.countdown_row {
-	clear: both;
-	width: 100%;
-	padding: 0px 2px;
-	text-align: center;
-}
-.countdown_show1 .countdown_section {
-	width: 98%;
-}
-.countdown_show2 .countdown_section {
-	width: 48%;
-}
-.countdown_show3 .countdown_section {
-	width: 32.5%;
-}
-.countdown_show4 .countdown_section {
-	width: 24.5%;
-}
-.countdown_show5 .countdown_section {
-	width: 19.5%;
-}
-.countdown_show6 .countdown_section {
-	width: 16.25%;
-}
-.countdown_show7 .countdown_section {
-	width: 14%;
-}
-.countdown_section {
-	display: block;
-	float: left;
-	font-size: 120%;
-	font-family:Reenie Beanie;
-	text-align: left;
-}
-.countdown_amount {
-	font-size: 300%;
-	font-family:Reenie Beanie;
-}
-.countdown_descr {
-	display: block;
-	width: 100%;
-}
+.hasCountdown {background-color: #fff;}
+.countdown_rtl {direction: rtl;}
+.countdown_holding span {color: #000;}
+.countdown_row {clear: both;width: 100%;padding: 0px 2px;text-align: center;}
+.countdown_show1 .countdown_section {width: 9%;}
+.countdown_show2 .countdown_section {width: 48%;}
+.countdown_show3 .countdown_section {width: 32.5%;}
+.countdown_show4 .countdown_section {width: 24.5%;}
+.countdown_show5 .countdown_section {width: 19.5%;}
+.countdown_show6 .countdown_section {width: 16.25%;}
+.countdown_show7 .countdown_section {width: 14%;}
+.countdown_section {display: block;float: left;margin:5px;font-size: 25px;font-family:Reenie Beanie;text-align: left;}
+.countdown_amount {font-size: 300%;font-family:Reenie Beanie;}
+.countdown_descr {display: block;width: 100%;}
 
 #inline button {
 	font-family: Reenie Beanie;
@@ -327,6 +303,4 @@ p.vibes {
 	border-radius: 4px;
 	cursor: pointer; cursor: hand;
 }
-#inline a button {
-	text-decoration: none !important;
-}
+#inline a button {text-decoration: none !important;}

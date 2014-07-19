@@ -26,7 +26,6 @@
 		<a href="#vows" data-menu-top="800">Vows</a>
 		<a href="#message" data-menu-top="1200">Message</a>
 	</div>
-	
 	<div id="intro" data-0="display:block;" data-1400="display:none;" >
 		<div class="intro_ease" data-400="left:90%" data-1500="left:0%;">
 			<h4 class="vibes">You're cordially invited</h4>
@@ -37,7 +36,7 @@
 			<h4 class="vibes">September 27th, 2014</h4>
 		</div>
 	</div>
-	<div id="intro2" data-0="display:none;" data-1400="display:block;" data-800="left:100%" data-1500="left:77%;" data-2400="display:none;">
+	<div id="intro2" data-0="display:none;" data-1400="display:block;" data-800="left:100%" data-1500="left:77%;" data-3400="display:none;">
 		<div class="intro_ease">
 			<h4 class="vibes">No need to dress up, no need to wrap gifts.</h4>
 			<h4 class="vibes">Just stay at home, and send us a good wish.</h4>
@@ -45,53 +44,56 @@
 			<h4 class="vibes">But we're off on a journey have no fear.</h4>
 		</div>
 	</div>
-	
-	<div id="story" data-0="display:none;" data-2400="display:block;" data-10000="display:none;">
-		<div id="story_ease" data-2400="left:100%" data-7400="left:30%;">
-				<h2>Story</h2>
-				<p>About 10 years ago a guy named Dave met a girl named Ginny.<br />
-				Soon after, the two would take a trip to New York City.</p>
-				
-				<p>Days and weeks and many more,<br />
-				The couple found love they could not ignore.<br />
-				They dwelled in cities, the trees, and farm,<br />
-				Each would have its newfound charm.</p>
-				
-				<p>And then one day came when they decided to marry.<br />
-				They had made it 10 years, after all, it’s not so scary.<br />
-				Money can’t buy love, this they knew.<br />
-				But it sure could pay for a trip, to start anew.</p>
-				
-				<p>So tip your hat to these big-hearted.<br />
-				Who are embarking on a journey to where it all started.<br />
-				To jumpstart another decade, with its ups and downs.<br />
-				New experiences and perhaps new towns.</p>
-				
-				<p>But have no worries for this one of many couples.<br />
-				Because they’re a good team and can tackle life’s troubles.<br />
-				For it is their love that will make them last.<br />
-				This guy named Windham and girl named Gast.</p>
+	<div id="story_wrap" data-2400="background:rgba(0,0,0,0);" data-8400="background:rgba(104,130,91,.25);">
+		<div id="story">
+			<div id="story_ease" data-2400="left:100%" data-3400="left:30%;" data-4400="left:-100%;" >
+					<h4 class="beanie">About 10 years ago<br /> a guy named Dave met a girl named Ginny.<br />
+					Soon after, the two would take a trip to New York City.</h4>
+			</div>
+			<div id="story_ease" data-3400="left:100%" data-4400="left:30%;" data-5400="left:-100%;">
+					<h4 class="beanie">Days and weeks and many more,<br />
+					The couple found love they could not ignore.<br />
+					They dwelled in cities, the trees, and farm,<br />
+					Each would have its newfound charm.</h4>
+			</div>
+			<div id="story_ease" data-4400="left:100%" data-5400="left:30%;" data-6400="left:-100%;">	
+					<h4 class="beanie">And then one day came when they decided to marry.<br />
+					They had made it 10 years, after all, it’s not so scary.<br />
+					Money can’t buy love, this they knew.<br />
+					But it sure could pay for a trip, to start anew.</h4>
+			</div>
+			<div id="story_ease" data-5400="left:100%" data-6400="left:30%;" data-7400="left:-100%;">
+					<h4 class="beanie">So tip your hat to these big-hearted.<br />
+					Who are embarking on a journey to where it all started.<br />
+					To jumpstart another decade, with its ups and downs.<br />
+					New experiences and perhaps new towns.</h4>
+			</div>
+			<div id="story_ease" data-6400="left:100%" data-7400="left:30%;" data-8400="left:-100%;">
+					<h4 class="beanie">But have no worries for this one of many couples.<br />
+					Because they’re a good team and can tackle life’s troubles.<br />
+					For it is their love that will make them last.<br />
+					This guy named Windham and girl named Gast.</h4>
+			</div>
 		</div>
 	</div>
 	
-	<div id="trip" data-0="display:none;" data-10000="display:block;" data-10000="background:rgba(0,0,0,0);color[swing]:rgb(0,0,0);" data-10500="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-20000="display:none;">
-		<div class="trip_ease" data-10000="left:50%" data-16000="left:30%;">
-			<h2>Trip</h2>
-			<p>Nulla scelerisque dic</p>
+	<div id="trip" data-0="display:block;" data-8400="display:block;" data-8500="top:-100%" data-10000="top:0%;" data-12000="top:-100%;" data-10000="background:rgba(0,0,0,0);" data-13000="background:rgba(130,104,130,.5);">
+		<div class="trip_container">
+			<h4 class="beanie">Trip</h4>
+			<h4 class="beanie">Nulla scelerisque dic</h4>
 		</div>
 	</div>
+
 	
 	<div id="vows" data-0="display:none;" data-20000="display:block;">
-		<div id="story_ease" data-20000="left:100%" data-26000="left:10%;">
-			<div class="row clearfix">
-				<div id="bml" data-0="position:static;" data-top-top="position:fixed;top:0;right:0" data-edge-strategy="set">
-					<h3>September 27<sup>th</sup>, &nbsp;<span id="year">2014</span>.</h3>	
-				</div>
-				<div class="buy-love" style="margin:0 0 0 100px" data-0="position:static;" data-top-top="position:fixed;top:0;right:15%" data-edge-strategy="set">
-					<p>&nbsp;</p>
-					<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
-				</div>
-			<div>
+		<div class="easing" data-20001="left:100%" data-20002="left:25%;">
+			<div id="bml" data-0="position:static;" data-top-top="position:fixed;top:25%;right:30%" data-edge-strategy="set">
+				<h3>September 27<sup>th</sup>, &nbsp;<span id="year">2014</span>.</h3>	
+			</div>
+			<div class="buy-love" style="margin:0;" data-0="position:static;" data-top-top="position:fixed;top:55%;right:45%" data-edge-strategy="set">
+				<p>&nbsp;</p>
+				<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
+			</div>
 		</div>
 	</div>
 	

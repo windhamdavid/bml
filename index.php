@@ -1,4 +1,4 @@
-<?php /* Template Name: BML */ ?>
+<?php?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -144,8 +144,8 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/skrollr.ie.min.js"></script>
 <![endif]-->
 <script type="text/javascript">
-    var s = skrollr.init();
-    </script>
+	var s = skrollr.init();
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

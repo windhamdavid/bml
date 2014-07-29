@@ -14,14 +14,20 @@
 <?php wp_head(); ?>
 </head>
 <body>
-	
+<div id="skrollr-body">
 	<div id="bg1" data-0="display:none;" data-1000="display:block;background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
-	<div id="bg2" data-0="display:none;" data-8000="display:block;background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
-	<div id="bg3" data-0="display:none;" data-20000="display:block;background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+	<div id="bg2" data-0="display:none;" data-5000="display:block;background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="display:none;" data-10000="display:block;background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
 	<div id="progress" data-0="width:0%;background:rgb(130, 104, 130);" data-end="width:100%;background:rgb(103, 130, 91);"></div>
 	
+	<div id="menu" data-0="position:static;display:none;" data-top-top="position:fixed;bottom:30px;">
+		<a href="#story" data-menu-top="300">Story</a>
+		<a href="#trip" data-menu-top="500">Trip</a>
+		<a href="#vows" data-menu-top="800">Vows</a>
+		<a href="#message" data-menu-top="1200">Message</a>
+	</div>
 	<div id="intro" data-0="display:block;" data-1400="display:none;">
-		<div class="intro_ease" data-0="left:92%" data-1500="left:0%;">
+		<div class="intro_ease" data-400="left:90%" data-1500="left:0%;">
 			<h4 class="cardo">You're cordially invited</h4>
 			<h4 class="cardo">to celebrate the marriage of</h4><br />
 			<h1 class="monsieur">David A. Windham</h1>
@@ -31,41 +37,39 @@
 			<img src="wp-content/themes/bml/img/swirl.png">
 		</div>
 	</div>
-	
-	<div id="intro2" data-0="display:none;" data-1400="display:block;" data-4000="display:none;">
-		<div class="intro_ease" data-1400="left:0%" data-2100="left:93%;">
+	<div id="intro2" data-0="display:none;" data-1400="display:block;" data-800="left:100%" data-1500="left:77%;" data-3400="display:none;">
+		<div class="intro_ease">
 			<h4 class="vibes">No need to dress up, no need to wrap gifts.</h4>
 			<h4 class="vibes">Just stay at home, and send us a good wish.</h4>
 			<h4 class="vibes">We appreciate your love and cheer.</h4>
 			<h4 class="vibes">But we're off on a journey have no fear.</h4>
 		</div>
 	</div>
-	
-	<div id="story_wrap" data-3400="background:rgba(0,0,0,0);" data-8000="background:rgba(104,130,91,.25);">
+	<div id="story_wrap" data-2400="background:rgba(0,0,0,0);" data-8400="background:rgba(104,130,91,.25);">
 		<div id="story">
-			<div class="story_ease" data-3400="top:100%" data-4400="top:20%;" data-6400="top:20%;" data-7400="top:-35%;">
+			<div id="story_ease" data-2400="left:100%" data-3400="left:30%;" data-4400="left:-100%;" >
 					<h4 class="beanie">About 10 years ago<br /> a guy named Dave met a girl named Ginny.<br />
 					Soon after, the two would take a trip to New York City.</h4>
 			</div>
-			<div class="story_ease" data-4000="top:100%" data-5000="top:45%;" data-6400="top:45%;" data-7400="top:-35%;">
+			<div id="story_ease" data-3400="left:100%" data-4400="left:30%;" data-5400="left:-100%;">
 					<h4 class="beanie">Days and weeks and many more,<br />
 					The couple found love they could not ignore.<br />
 					They dwelled in cities, the trees, and farm,<br />
 					Each would have its newfound charm.</h4>
 			</div>
-			<div class="story_ease" data-7000="top:100%;" data-8000="top:15%;" data-10000="top:15%;" data-15000="top:-40%;">	
+			<div id="story_ease" data-4400="left:100%" data-5400="left:30%;" data-6400="left:-100%;">	
 					<h4 class="beanie">And then one day came when they decided to marry.<br />
 					They had made it 10 years, after all, it’s not so scary.<br />
 					Money can’t buy love, this they knew.<br />
 					But it sure could pay for a trip, to start anew.</h4>
 			</div>
-			<div class="story_ease" data-8000="top:100%;" data-9000="top:50%;" data-10000="top:50%;" data-15000="top:-40%;">
+			<div id="story_ease" data-5400="left:100%" data-6400="left:30%;" data-7400="left:-100%;">
 					<h4 class="beanie">So tip your hat to these big-hearted.<br />
 					Who are embarking on a journey to where it all started.<br />
 					To jumpstart another decade, with its ups and downs.<br />
 					New experiences and perhaps new towns.</h4>
 			</div>
-			<div class="story_ease" data-12000="top:100%" data-14000="top:35%;" data-15000="top:35%;" data-20000="top:-40%;">
+			<div id="story_ease" data-6400="left:100%" data-7400="left:30%;" data-8400="left:-100%;">
 					<h4 class="beanie">But have no worries for this one of many couples.<br />
 					Because they’re a good team and can tackle life’s troubles.<br />
 					For it is their love that will make them last.<br />
@@ -74,58 +78,41 @@
 		</div>
 	</div>
 	
-	<div id="trip" data-20000="top:-150%" data-22000="top:0%;" data-28000="top:-100%;" data-20000="background:rgba(0,0,0,0);" data-23000="background:rgba(130,104,130,.5);">
-		<div class="container">
+	<div id="trip" data-0="display:block;" data-8400="display:block;" data-13001="display:none;" data-8500="top:-150%" data-10000="top:0%;" data-12000="top:-100%;" data-10000="background:rgba(0,0,0,0);" data-13000="background:rgba(130,104,130,.5);">
+		<div class="trip_container">
 			<h4 class="beanie">Trip</h4>
-			<div class="beanie one-third column">
-				<li>provide a party dress</li>
-				<li>bestow outdoor bloody mary's</li>
-				<li>handle their hotel</li>
-				<li>grant them a good laugh</li>
-				<li>facilitate their flights</li>
-			</div>
-			<div class="beanie one-third column">				
-				<li>contribute to cocktails</li>
-				<li>donate a dinner</li>
-				<li>supply some sugary snacks</li>
-				<li>furnish their room w/ flowers</li>
-				<li>cap off a meal with coffee</li>
-				<li>fuel a photography session</li>
-			</div>
-			<div class="beanie one-third column">
-				<li>give them gallery tickets</li>
-				<li>cater the cottage</li>
-				<li>add an event to their itinerary</li>
-				<li>purchase some pretty things</li>
-				<li>entrust some escargot</li>
-				<li>partake in NYC pizza</li>
-				<li>romance them on the rooftop</li>
+			<p class="beanie">
+				provide a party dress
+				bestow outdoor bloody mary's
+				handle their hotel
+				grant them a good laugh
+				facilitate their flights
+				contribute to cocktails
+				donate a dinner
+				supply some sugary snacks
+				furnish their room w/ flowers
+				cap off a meal with coffee
+				fuel a photography session
+				give them gallery tickets
+				cater the cottage
+				add an event to their itinerary
+				purchase some pretty things
+				entrust some escargot
+				partake in NYC pizza
+				romance them on the rooftop
 			</p>
 		</div>
 	</div>
+
 	
-	<div id="vows">
-		<div class="easing" data-23000="top:100%" data-24000="top:25%;" data-34000="top:25%;">
-			<div id="bml">
+	<div id="vows" data-0="display:none;" data-20000="display:block;">
+		<div class="easing" data-20001="left:100%" data-20002="left:25%;">
+			<div id="bml" data-0="position:static;" data-top-top="position:fixed;top:25%;right:30%" data-edge-strategy="set">
 				<h3>September 27<sup>th</sup>, &nbsp;<span id="year">2014</span>.</h3>	
 			</div>
-			<div class="buy-love">
+			<div class="buy-love" style="margin:0;" data-0="position:static;" data-top-top="position:fixed;top:55%;right:45%" data-edge-strategy="set">
+				<p>&nbsp;</p>
 				<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
-			</div>
-		</div>
-	</div>
-	<div id="wish">
-		<div class="easing" data-25000="left:100%" data-26000="left:15%;">
-			<div class="container">
-			<?php $comment_args = array( 'title_reply'=>'', 'comment_notes_before' => 'Leave us a message and...',
-			'fields' => apply_filters( 'comment_form_default_fields', array(
-			'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name' ) . '</label> ' . ( $req ? '<span>*</span>' : '' ) .
-			'<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>', 'email'  => '<p class="comment-form-email">' .
-			'<label for="email">' . __( 'Email' ) . '</label> ' . ( $req ? '<span>*</span>' : '' ) .
-			'<input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />'.'</p>', 'url'    => '' ) ),
-			'comment_field' => '<p>' . '<label for="comment">' . __( '' ) . '</label>' . '<textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>' . '</p>', 'label_submit' => 'Wish Us Well', 'comment_notes_after' => '',
-			);
-			comment_form($comment_args); ?>
 			</div>
 		</div>
 	</div>
@@ -181,7 +168,8 @@
 			</div>
 		</div>
 	</div>
-
+	
+</div>
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.3.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>

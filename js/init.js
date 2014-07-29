@@ -1,17 +1,16 @@
 $(document).ready(function() {
 	$('#bml').countdown({until: new Date(2014, 9 - 1, 27)});
-	$("a#inline").fancybox({});
+	$('a#inline').fancybox({});
+	$('#buy-love').show(); //FOUC
 });
 
 var s = skrollr.init({
-		
-	});
-	
-skrollr.menu.init(s, {
-    animate: true,
-    easing: 'sqrt',
-    scale: 2,
-    duration: function(currentTop, targetTop) {
-        return 500;
-    }
+	edgeStrategy: 'set',
+	easing: {
+		inverted: function(p) {
+			return 1-p;
+		}
+	}
 });
+
+

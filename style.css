@@ -13,6 +13,7 @@ Author URI: http://davidawindham.com
 
 @import url(https://fonts.googleapis.com/css?family=Reenie+Beanie);
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Cardo|Monsieur+La+Doulaise);
 @import url(css/fancy.css);
 
 /* #Reset  ================================================== */
@@ -88,41 +89,13 @@ a img {border: 0;}
 .container .offset-by-fifteen               { padding-left: 900px; }
 
 /* #_S main  ================================================== */
-body,button,input,select,textarea {color: #404040;font-size: 18px;font-size: 1.6rem;line-height: 1.5;}
-h1, h2, h3, h4, h5, h6 {clear: both;}
-hr {background-color: #ccc;border: 0;height: 1px;margin-bottom: 1.5em;}
-p {margin-bottom: 1.5em;}
-ul, ol {margin: 0 0 1.5em 3em;}
-ul {list-style: disc;}
-ol {list-style: decimal;}
-li > ul,li > ol {margin-bottom: 0;margin-left: 1.5em;}
-dt {font-weight: bold;}
-dd {margin: 0 1.5em 1.5em;}
-b, strong {font-weight: bold;}
-dfn, cite, em, i {font-style: italic;}
-blockquote {margin: 0 1.5em;}
-address {margin: 0 0 1.5em;}
-pre {background: #eee;font-family: "Courier 10 Pitch", Courier, monospace;font-size: 15px;font-size: 1.5rem;line-height: 1.6;margin-bottom: 1.6em;max-width: 100%;overflow: auto;padding: 1.6em;}
-code, kbd, tt, var {font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
-abbr, acronym {border-bottom: 1px dotted #666;cursor: help;}
-mark, ins {background: #fff9c0;text-decoration: none;}
-sup,sub {font-size: 75%;height: 0;line-height: 0;position: relative;vertical-align: baseline;}
-sup {bottom: 1ex;}
-sub {top: .5ex;}
-small {font-size: 75%;}
-big {font-size: 125%;}
-figure {margin: 0;}
-table {margin: 0 0 1.5em;width: 100%;}
-th {font-weight: bold;}
-img {height: auto;max-width: 100%; }
-textarea {overflow: auto;padding-left: 3px;vertical-align: top;width: 98%;}
-.alignleft {display: inline;float: left;margin-right: 1.5em;}
-.alignright {display: inline;float: right;margin-left: 1.5em;}
-.aligncenter {clear: both;display: block;margin: 0 auto;}
-a {color: royalblue;}
-a:visited {color: purple;}
-a:hover,a:focus,a:active {color: midnightblue;}
 
+
+h1.monsieur {
+	font-family: 'Monsieur La Doulaise', cursive;
+	font-size:85px;
+	text-shadow: 0px 1px 0px #999;
+}
 
 h1.vibes {
 	font-family: 'Great Vibes', cursive;
@@ -145,12 +118,42 @@ p.vibes {
 	font-size:28px;
 	line-height:30px;
 }
+h1.cardo {
+	font-family: 'Cardo', serif;
+	font-size:65px;
+}
+h2.cardo {
+	font-family: 'Cardo', serif;
+	font-size:55px;
+}
+h3.cardo {
+	font-family: 'Cardo', serif;
+	font-size:45px;
+}
+h4.cardo {
+	font-family: 'Cardo', serif;
+	text-transform:uppercase;
+	font-size:18px;
+}
 h4.beanie {
 	font-family: Reenie Beanie;
 	font-size:48px;
 }
+p.beanie {
+	font-family: Reenie Beanie;
+	font-size:31px;
+}
+.beanie li {
+	font-family: Reenie Beanie;
+	font-size:27px;
+}
 
 /* #Skrollr  ================================================== */
+
+#skrollr-body {
+	height: 100%;
+	width: 100%;
+}
 
 html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 .skrollable {position:fixed;z-index:100;}
@@ -160,7 +163,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 #bg1, #bg2, #bg3 {z-index:50;top:0;left:0;width:100%;height:100%;background:url(img/bg.png) repeat 0 0;}
 #bg2 {z-index:49;background-image:url(img/bg2.png);}
 #bg3 {z-index:48;background-image:url(img/bg3.png);}
-#progress {height:17px;background:#fff;bottom:0;z-index:200;}
+#progress {height:9px;background:#fff;bottom:0;z-index:200;}
 #scrollbar {
 	position:fixed;
 	right:2px;
@@ -184,7 +187,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 
 #intro {
 	width:80%;
-	top:120px;
+	top:80px;
 	margin-left:-70%;
 	padding:2em;
 	text-align:center;
@@ -208,15 +211,14 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 #story {
 	top:200px;
 	padding:2em;
-	width:70%;
+	width:60%;
 	text-align:center;
 }
-#story_ease {
+.story_ease {
 	top:200px;
 	width:100%;
 	height:100%;
 }
-
 #transform {
 	width:70%;
 	left:50%;
@@ -227,44 +229,31 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	.transform-origin(50%, 50%);
 }
 
-#properties {
-	width:100%;
-	height:100%;
-	padding-top:10%;
-	text-align:center;
-
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-
 #trip {
 	width:100%;
 	height:100%;
 }
-.trip_container {
-	top:200px;
-	margin:200px;
-}
-	
+
 #vows {
 	width:100%;
 	height:100%;
-}
-#bml {
-	background:#fff;
-	height:300px;
-	margin:20px;
 }
 
 
 
 /* #BML  ================================================== */
 
+
+
+
 #bml { width: 450px; height: 55px; margin:0;}
 
-.hasCountdown {background-color: #fff;}
+.buy-love {
+	bottom:20%;
+	margin: 100px 0 0 0;
+}
+
+.hasCountdown {}
 .countdown_rtl {direction: rtl;}
 .countdown_holding span {color: #000;}
 .countdown_row {clear: both;width: 100%;padding: 0px 2px;text-align: center;}
@@ -275,8 +264,8 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 .countdown_show5 .countdown_section {width: 19.5%;}
 .countdown_show6 .countdown_section {width: 16.25%;}
 .countdown_show7 .countdown_section {width: 14%;}
-.countdown_section {display: block;float: left;margin:5px;font-size: 25px;font-family:Reenie Beanie;text-align: left;}
-.countdown_amount {font-size: 300%;font-family:Reenie Beanie;}
+.countdown_section {display: block;float: left;margin:4px;font-size: 25px;font-family:Reenie Beanie;text-align: left;}
+.countdown_amount {font-size:54px;font-family:Reenie Beanie;}
 .countdown_descr {display: block;width: 100%;}
 
 #inline button {

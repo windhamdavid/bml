@@ -12,5 +12,3 @@ var s = skrollr.init({
 		}
 	}
 });
-
-

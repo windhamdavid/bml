@@ -114,18 +114,11 @@
 			</div>
 		</div>
 	</div>
+	
 	<div id="wish">
-		<div class="easing" data-25000="left:100%" data-26000="left:15%;">
+		<div class="easing" data-25000="left:100%" data-26000="left:0%;">
 			<div class="container">
-			<?php $comment_args = array( 'title_reply'=>'', 'comment_notes_before' => 'Leave us a message and...',
-			'fields' => apply_filters( 'comment_form_default_fields', array(
-			'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name' ) . '</label> ' . ( $req ? '<span>*</span>' : '' ) .
-			'<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>', 'email'  => '<p class="comment-form-email">' .
-			'<label for="email">' . __( 'Email' ) . '</label> ' . ( $req ? '<span>*</span>' : '' ) .
-			'<input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />'.'</p>', 'url'    => '' ) ),
-			'comment_field' => '<p>' . '<label for="comment">' . __( '' ) . '</label>' . '<textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>' . '</p>', 'label_submit' => 'Wish Us Well', 'comment_notes_after' => '',
-			);
-			comment_form($comment_args); ?>
+				<?php gravity_form(1, false, false, false, '', true); ?>
 			</div>
 		</div>
 	</div>
@@ -183,11 +176,16 @@
 	</div>
 
 <?php wp_footer(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.3.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.menu.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
+<script>
+var s = skrollr.init({
+	edgeStrategy: 'set',
+	easing: {
+		inverted: function(p) {
+			return 1-p;
+		}
+	}
+});
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

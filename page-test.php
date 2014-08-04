@@ -1,4 +1,4 @@
-<?php?>
+<?php /* Template Name: Test */ ?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -10,16 +10,11 @@
 </head>
 <body>
 <div class="container">
-	<?php while ( have_posts() ) : the_post(); ?>
-		<?php the_content(); ?>
-	<?php endwhile;?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 </div>
 <?php wp_footer(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.8.3.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/skrollr.menu.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

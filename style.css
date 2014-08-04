@@ -47,7 +47,8 @@ a img {border: 0;}
 .clear:after,.entry-content:after,.comment-content:after,.site-header:after,.site-content:after,.site-footer:after {clear: both;}
 
 /* #Base 960 Grid ================================================== */
-.container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+.container                                  { position: absolute; width: 960px; margin: 0 auto; padding: 0; }
+/* Hackety Hack - position needs to be abolute for Skrollr to work right */
 .container .column,
 .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .row                                        { margin-bottom: 20px; }

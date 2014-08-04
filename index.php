@@ -74,52 +74,19 @@
 		</div>
 	</div>
 	
-	<div id="trip" data-20000="top:-150%" data-22000="top:0%;" data-28000="top:-100%;" data-20000="background:rgba(0,0,0,0);" data-23000="background:rgba(130,104,130,.5);">
-		<div class="container">
-			<h4 class="beanie">Trip</h4>
-			<div class="beanie one-third column">
-				<li>provide a party dress</li>
-				<li>bestow outdoor bloody mary's</li>
-				<li>handle their hotel</li>
-				<li>grant them a good laugh</li>
-				<li>facilitate their flights</li>
-			</div>
-			<div class="beanie one-third column">				
-				<li>contribute to cocktails</li>
-				<li>donate a dinner</li>
-				<li>supply some sugary snacks</li>
-				<li>furnish their room w/ flowers</li>
-				<li>cap off a meal with coffee</li>
-				<li>fuel a photography session</li>
-			</div>
-			<div class="beanie one-third column">
-				<li>give them gallery tickets</li>
-				<li>cater the cottage</li>
-				<li>add an event to their itinerary</li>
-				<li>purchase some pretty things</li>
-				<li>entrust some escargot</li>
-				<li>partake in NYC pizza</li>
-				<li>romance them on the rooftop</li>
-			</p>
-		</div>
-	</div>
-	
-	<div id="vows">
-		<div class="easing" data-23000="top:100%" data-24000="top:25%;" data-34000="top:25%;">
-			<div id="bml">
-				<h3>September 27<sup>th</sup>, &nbsp;<span id="year">2014</span>.</h3>	
-			</div>
-			<div class="buy-love">
-				<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
-			</div>
-		</div>
-	</div>
-	
-	<div id="wish">
-		<div class="easing" data-25000="left:100%" data-26000="left:0%;">
-			<div class="container">
+	<div id="trip" data-20000="top:-150%" data-22000="top:0%;" data-28000="top:-100%;" data-20000="background:rgba(0,0,0,0);" data-27000="background:rgba(130,104,130,.5);">
+		<div class="easing" data-20000="bottom:-250%" data-22000="bottom:0%;">
+				<div id="gform">
 				<?php gravity_form(1, false, false, false, '', true); ?>
-			</div>
+				</div>
+				<div id="heart">&nbsp;</div>
+				<div id="bml">
+					<h3>September 27<sup>th</sup>, &nbsp;<span id="year">2014</span>.</h3>	
+				</div>
+				
+				<div class="buy-love">
+					<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
+				</div>
 		</div>
 	</div>
 	

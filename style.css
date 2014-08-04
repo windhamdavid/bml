@@ -47,7 +47,7 @@ a img {border: 0;}
 .clear:after,.entry-content:after,.comment-content:after,.site-header:after,.site-content:after,.site-footer:after {clear: both;}
 
 /* #Base 960 Grid ================================================== */
-.container                                  { position: absolute; width: 960px; margin: 0 auto; padding: 0; }
+.container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
 /* Hackety Hack - position needs to be abolute for Skrollr to work right */
 .container .column,
 .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
@@ -297,3 +297,59 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	cursor: pointer; cursor: hand;
 }
 #inline a button {text-decoration: none !important;}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 20px;
+    top: 0;
+    width: 20px;
+    height: 35px;
+    background: red;
+    -moz-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+/* #Gravity Forms ================================================== */
+
+#gform {
+	width:600px;
+	margin: 0 auto;
+}
+#gform label {
+	font-family: Reenie Beanie;
+	font-size:250%;
+}
+
+ul.gfield_checkbox li {float:left;}
+

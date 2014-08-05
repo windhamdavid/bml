@@ -80,7 +80,7 @@
 				<?php gravity_form(1, false, false, false, '', true); ?>
 				</div>
 				<div id="heart">&nbsp;</div>
-				<div id="bml">
+				<div id="bmlcount">
 					<h3>September 27<sup>th</sup>, &nbsp;<span id="year">2014</span>.</h3>	
 				</div>
 				

@@ -48,9 +48,9 @@ function bml_scripts() {
     {
 		wp_enqueue_script( 'bmlskroll', get_template_directory_uri() . '/js/skrollr.min.js', array(), '1.0.0', true );
 		wp_enqueue_script( 'bmlskrollmenu', get_template_directory_uri() . '/js/skrollr.menu.min.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'bmlcount', get_template_directory_uri() . '/js/jquery.countdown.min.js', array(), '1.0.0', true );
 		//wp_enqueue_script( 'bmlscript', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true );
-		//wp_enqueue_script( 'bmlinit', get_template_directory_uri() . '/js/init.js', array(), '1.0.0', true );
-		//wp_enqueue_script( 'bmljquery', get_template_directory_uri() . '/js/jquery-1.8.3.min.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'bmlinit', get_template_directory_uri() . '/js/init.js', array(), '1.0.0', true );
     }
 }
 

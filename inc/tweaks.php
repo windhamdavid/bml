@@ -115,7 +115,7 @@ function remove_dashboard_widgets(){
 function bml_rss_output(){
     echo '<div class="rss-widget">'; 
        wp_widget_rss_output(array(
-            'url' => 'https://cantbuymelove/feed/', 
+            'url' => 'https://cantbuymelove.org/feed/', 
             'title' => 'Cant Buy Me Love',
             'items' => 1, 
             'show_summary' => 1,

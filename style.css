@@ -112,11 +112,7 @@ p.vibes {
 
 /* #Skrollr  ================================================== */
 
-#skrollr-body {
-	height: 100%;
-	width: 100%;
-}
-
+#skrollr-body {height: 100%;width: 100%;}
 html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 .skrollable {position:fixed;z-index:100;}
 .skrollr-mobile .skrollable {position:absolute;}
@@ -142,11 +138,6 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	width:100%;
 	height:100%;
 }
-#easing {
-	width:100%;
-	height:100%;
-}
-
 #intro {
 	width:80%;
 	top:80px;
@@ -154,11 +145,11 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	padding:2em;
 	text-align:center;
 }
-.intro_ease {
-	width:100%;
-	height:100%;
-	background:#fff;
-}
+	.intro_ease {
+		width:100%;
+		height:100%;
+		background:#fff;
+	}
 #intro2 {
 	width:80%;
 	top:120px;
@@ -171,12 +162,28 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	height:100%;
 }
 #story {
-	padding:2em;
-	width:60%;
-	text-align:center;
+	width:100%;
+	height:100%;
 }
-.story_ease {
-	top:200px;
+	.story {
+		width:60%;
+		height:100%;
+		text-align:center;
+	}
+	
+#trip_wrap {
+	width:100%;
+	height:100%;
+}
+#trip {
+	width:100%;
+	height:100%;
+}
+#vows {
+	width:100%;
+	height:100%;
+}
+#wish {
 	width:100%;
 	height:100%;
 }
@@ -189,25 +196,10 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	font-size:150%;
 	.transform-origin(50%, 50%);
 }
-
-#trip {
+#credits {
 	width:100%;
 	height:100%;
 }
-#trip_wrap {
-	width:100%;
-	height:100%;
-}
-#vows {
-	width:100%;
-	height:100%;
-}
-#wish {
-	width:100%;
-	height:100%;
-}
-
-
 
 /* #BML  ================================================== */
 
@@ -217,37 +209,6 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	font-family: 'Great Vibes', cursive;
 	font-size:31px;
 }
-
-.buy-love {
-	margin: 0px 0 0 0;
-}
-
-
-#gform_submit_button_1 {
-	font-family: 'Great Vibes', cursive;
-	text-decoration: none !important;
-	position:relative;
-	margin:10px;
-	padding: 8px 15px;
-	font-weight: bold;
-	font-size: 18px;
-	background: #1275FF;
-	border: 1px solid #155FB0;
-	color: white;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#77B7FF), to(#017AFF));
-	background-image: -moz-linear-gradient(top, #77B7FF, #017AFF);
-	background-image: -o-linear-gradient(top, #77B7FF, #017AFF);
-	-webkit-box-shadow: inset 0 1px 0 #98c9ff;
-	-moz-box-shadow: inset 0 1px 0 #98c9ff;
-	box-shadow: inset 0 1px 0 #98c9ff;
-	-o-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	cursor: pointer; cursor: hand;
-}
-#inline a button {text-decoration: none !important;}
 
 #heart {
     position: relative;
@@ -291,7 +252,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 }
 
 
-/* #Gravity Forms ================================================== */
+/* #Form ================================================== */
 
 #gform {
 	width:600px;
@@ -304,8 +265,32 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 
 ul.gfield_checkbox li {float:left;}
 
+#gform_submit_button_1 {
+	font-family: 'Great Vibes', cursive;
+	text-decoration: none !important;
+	position:relative;
+	margin:10px;
+	padding: 8px 15px;
+	font-weight: bold;
+	font-size: 18px;
+	background: #1275FF;
+	border: 1px solid #155FB0;
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#77B7FF), to(#017AFF));
+	background-image: -moz-linear-gradient(top, #77B7FF, #017AFF);
+	background-image: -o-linear-gradient(top, #77B7FF, #017AFF);
+	-webkit-box-shadow: inset 0 1px 0 #98c9ff;
+	-moz-box-shadow: inset 0 1px 0 #98c9ff;
+	box-shadow: inset 0 1px 0 #98c9ff;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer; cursor: hand;
+}
 
-/* Media Queries ================================================== */
+/* Media Queries ========================================= */
 
 @media screen 
 and (min-device-width : 320px) 

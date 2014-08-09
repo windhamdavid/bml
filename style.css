@@ -262,7 +262,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 }
 
 
-#inline button {
+#gform_submit_button_1 {
 	font-family: Reenie Beanie;
 	text-decoration: none !important;
 	position:relative;
@@ -342,4 +342,8 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 }
 
 ul.gfield_checkbox li {float:left;}
+
+
+
+
 

@@ -65,7 +65,8 @@
 					To jumpstart another decade, with its ups and downs.<br />
 					New experiences and perhaps new towns.</h4>
 			</div>
-			<div class="story_ease" data-8000="top:100%" data-9000="top:35%;" data-10000="top:35%;" data-11000="top:-40%;">
+			<div class="story_ease" data-8000="top:100%" data-9000="top:15%;" data-10000="top:15%;" data-11000="top:-40%;">
+					<div id="bmlcount"></div><div id="heart">&nbsp;</div>
 					<h4 class="beanie">But have no worries for this one of many couples.<br />
 					Because they’re a good team and can tackle life’s troubles.<br />
 					For it is their love that will make them last.<br />
@@ -76,14 +77,8 @@
 	
 	<div id="trip" data-11000="top:-200%" data-12000="top:0%;" data-13000="top:0%;" data-14000="top:-100%;" data-9500="background:rgba(130,104,130,.5);" data-12000="background:rgba(130,104,130,.5);">
 		<div class="easing">
-			<div id="bmlcount"></div>
 			<div id="gform">
 				<?php gravity_form(1, false, false, false, '', true); ?>
-				<div id="heart">&nbsp;</div>
-				<div class="buy-love">
-					<a id="inline" href="#buy-love"><button>Buy Some Love</button></a>
-				</div>
-				
 			</div>
 		</div>
 	</div>
@@ -99,7 +94,6 @@ var s = skrollr.init({
 	}
 });
 </script>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

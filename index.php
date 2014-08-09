@@ -34,7 +34,7 @@
 	
 	<div id="intro2" data-1400="display:block;" data-4100="display:none;">
 		<div class="intro_ease" data-1400="left:-30%" data-2100="left:93%;" data-3100="left:93%;" data-4100="left:150%;">
-			<h4 class="vibes">No need to dress up, no need to wrap gifts.</h4>
+			<h4 class="vibes">No need to dress up, no need to wrap GIFTS.</h4>
 			<h4 class="vibes">Just stay at home, and send us a good wish.</h4>
 			<h4 class="vibes">We appreciate your love and cheer.</h4>
 			<h4 class="vibes">But we're off on our journey, have no fear.</h4>

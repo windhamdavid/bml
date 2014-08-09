@@ -7,7 +7,7 @@
 <meta name="description" content="David + Ginny">
 <meta property="og:title" content="Can't Buy Me Love"/>
 <meta property="og:url" content="https://cantbuymelove.org"/>
-<meta property="og:image" content="https://cantbuymelove.org/wp-content/themes/bml/img/bml_thermo.png"/>
+<meta property="og:image" content="https://cantbuymelove.org/wp-content/themes/bml/img/bml.png"/>
 <meta property="og:site_name" content="Can't Buy Me Love"/>
 <meta property="og:description" content="David + Ginny"/>
 <title>D+G (Can't Buy Me Love)</title>

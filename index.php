@@ -37,7 +37,7 @@
 			<h4 class="vibes">No need to dress up, no need to wrap gifts.</h4>
 			<h4 class="vibes">Just stay at home, and send us a good wish.</h4>
 			<h4 class="vibes">We appreciate your love and cheer.</h4>
-			<h4 class="vibes">But we're off on a journey have no fear.</h4>
+			<h4 class="vibes">But we're off on our journey, have no fear.</h4>
 		</div>
 	</div>
 	

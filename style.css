@@ -138,7 +138,7 @@ h4.cardo {
 }
 h4.beanie {
 	font-family: Reenie Beanie;
-	font-size:48px;
+	font-size:39px;
 }
 p.beanie {
 	font-family: Reenie Beanie;
@@ -210,7 +210,6 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	height:100%;
 }
 #story {
-	top:200px;
 	padding:2em;
 	width:60%;
 	text-align:center;
@@ -234,6 +233,10 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	width:100%;
 	height:100%;
 }
+#trip_wrap {
+	width:100%;
+	height:100%;
+}
 #vows {
 	width:100%;
 	height:100%;
@@ -249,25 +252,15 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 
 #bml { width: 450px; height: 55px; margin:0;}
 
-.buy-love {
-	bottom:20%;
-	margin: 100px 0 0 0;
+#bmlcount {
+	font-family: Reenie Beanie;
+	font-size:39px;
 }
 
-.hasCountdown {}
-.countdown_rtl {direction: rtl;}
-.countdown_holding span {color: #000;}
-.countdown_row {clear: both;width: 100%;padding: 0px 2px;text-align: center;}
-.countdown_show1 .countdown_section {width: 9%;}
-.countdown_show2 .countdown_section {width: 48%;}
-.countdown_show3 .countdown_section {width: 32.5%;}
-.countdown_show4 .countdown_section {width: 24.5%;}
-.countdown_show5 .countdown_section {width: 19.5%;}
-.countdown_show6 .countdown_section {width: 16.25%;}
-.countdown_show7 .countdown_section {width: 14%;}
-.countdown_section {display: block;float: left;margin:4px;font-size: 25px;font-family:Reenie Beanie;text-align: left;}
-.countdown_amount {font-size:54px;font-family:Reenie Beanie;}
-.countdown_descr {display: block;width: 100%;}
+.buy-love {
+	margin: 0px 0 0 0;
+}
+
 
 #inline button {
 	font-family: Reenie Beanie;

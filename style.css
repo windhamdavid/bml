@@ -11,10 +11,7 @@ Author URI: http://davidawindham.com
 	https://plus.google.com/104610899646415406748/about - James Grieshaber
 */
 
-@import url(https://fonts.googleapis.com/css?family=Reenie+Beanie);
-@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
-@import url(https://fonts.googleapis.com/css?family=Cardo|Monsieur+La+Doulaise);
-@import url(css/fancy.css);
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes|Cardo|Monsieur+La+Doulaise);
 
 /* #Reset  ================================================== */
 html, body, div, span, applet, object, iframe,
@@ -89,7 +86,7 @@ a img {border: 0;}
 .container .offset-by-fourteen              { padding-left: 840px; }
 .container .offset-by-fifteen               { padding-left: 900px; }
 
-/* #_S main  ================================================== */
+/* Fonts ================================================== */
 
 
 h1.monsieur {
@@ -97,18 +94,10 @@ h1.monsieur {
 	font-size:85px;
 	text-shadow: 0px 1px 0px #999;
 }
-
-h1.vibes {
-	font-family: 'Great Vibes', cursive;
-	font-size:65px;
-}
-h2.vibes {
-	font-family: 'Great Vibes', cursive;
-	font-size:55px;
-}
-h3.vibes {
-	font-family: 'Great Vibes', cursive;
-	font-size:45px;
+h4.cardo {
+	font-family: 'Cardo', serif;
+	text-transform:uppercase;
+	font-size:18px;
 }
 h4.vibes {
 	font-family: 'Great Vibes', cursive;
@@ -119,35 +108,7 @@ p.vibes {
 	font-size:28px;
 	line-height:30px;
 }
-h1.cardo {
-	font-family: 'Cardo', serif;
-	font-size:65px;
-}
-h2.cardo {
-	font-family: 'Cardo', serif;
-	font-size:55px;
-}
-h3.cardo {
-	font-family: 'Cardo', serif;
-	font-size:45px;
-}
-h4.cardo {
-	font-family: 'Cardo', serif;
-	text-transform:uppercase;
-	font-size:18px;
-}
-h4.beanie {
-	font-family: Reenie Beanie;
-	font-size:39px;
-}
-p.beanie {
-	font-family: Reenie Beanie;
-	font-size:31px;
-}
-.beanie li {
-	font-family: Reenie Beanie;
-	font-size:27px;
-}
+
 
 /* #Skrollr  ================================================== */
 
@@ -253,8 +214,8 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 #bml { width: 450px; height: 55px; margin:0;}
 
 #bmlcount {
-	font-family: Reenie Beanie;
-	font-size:39px;
+	font-family: 'Great Vibes', cursive;
+	font-size:31px;
 }
 
 .buy-love {
@@ -263,7 +224,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 
 
 #gform_submit_button_1 {
-	font-family: Reenie Beanie;
+	font-family: 'Great Vibes', cursive;
 	text-decoration: none !important;
 	position:relative;
 	margin:10px;
@@ -337,13 +298,37 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	margin: 0 auto;
 }
 #gform label {
-	font-family: Reenie Beanie;
-	font-size:250%;
+	font-family: 'Great Vibes', cursive;
+	font-size:17px;
 }
 
 ul.gfield_checkbox li {float:left;}
 
 
+/* Media Queries ================================================== */
 
-
-
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	h1.monsieur {
+		font-family: 'Monsieur La Doulaise', cursive;
+		font-size:33px;
+	}
+	h4.vibes {
+		font-family: 'Great Vibes', cursive;
+		font-size:21px;
+	}
+	h4.cardo {
+		font-family: 'Cardo', serif;
+		text-transform:uppercase;
+		font-size:14px;
+	}
+	h4.beanie {
+		font-family: Reenie Beanie;
+		font-size:21px;
+	}
+	#gform {
+		width:400px;
+		margin: 0 auto;
+	}
+}

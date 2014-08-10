@@ -1,11 +1,11 @@
-<?php?>
+<?php /* Template Name: Thanks */ ?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="description" content="David + Ginny">
-<title>D+G (Can't Buy Me Love)</title>
+<title>Thank You | D+G</title>
 <?php wp_head(); ?>
 </head>
 <body>

@@ -45,7 +45,7 @@ a img {border: 0;}
 
 /* #Base 960 Grid ================================================== */
 .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
-/* Hackety Hack - position needs to be abolute for Skrollr to work right */
+/* Hackety Hack - position needs to be absolute for Skrollr to work right */
 .container .column,
 .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .row                                        { margin-bottom: 20px; }
@@ -281,8 +281,8 @@ ul.gfield_checkbox li {float:left;}
 	padding: 8px 15px;
 	font-weight: bold;
 	font-size: 18px;
-	background: #1275FF;
-	border: 1px solid #155FB0;
+	background: #CFBACE;
+	border: 1px solid #826882;
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#77B7FF), to(#017AFF));
@@ -315,10 +315,6 @@ and (max-device-width : 568px) {
 		font-family: 'Cardo', serif;
 		text-transform:uppercase;
 		font-size:14px;
-	}
-	h4.beanie {
-		font-family: Reenie Beanie;
-		font-size:21px;
 	}
 	#gform {
 		width:400px;

@@ -11,7 +11,7 @@ Author URI: http://davidawindham.com
 	https://plus.google.com/104610899646415406748/about - James Grieshaber
 */
 
-@import url(http://fonts.googleapis.com/css?family=Great+Vibes|Cardo|Monsieur+La+Doulaise);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes|Cardo|Monsieur+La+Doulaise);
 
 /* #Reset  ================================================== */
 html, body, div, span, applet, object, iframe,
@@ -162,11 +162,11 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	height:100%;
 }
 #story {
-	width:100%;
-	height:100%;
+	width:60%;
+	text-align:center;
 }
 	.story {
-		width:60%;
+		width:100%;
 		height:100%;
 		text-align:center;
 	}

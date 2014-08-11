@@ -1,3 +1,46 @@
+/* #Form ================================================== */
+
+#gform {
+	width:600px;
+	margin: 0 auto;
+}
+#gform label {
+	font-family: 'Great Vibes', cursive;
+	font-size:17px;
+}
+
+ul.gfield_checkbox li {float:left;}
+
+#gform_submit_button_1 {
+	font-family: 'Great Vibes', cursive;
+	text-decoration: none !important;
+	position:relative;
+	margin:10px;
+	padding: 8px 15px;
+	font-weight: bold;
+	font-size: 18px;
+	background: #CFBACE;
+	border: 1px solid #826882;
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#77B7FF), to(#017AFF));
+	background-image: -moz-linear-gradient(top, #77B7FF, #017AFF);
+	background-image: -o-linear-gradient(top, #77B7FF, #017AFF);
+	-webkit-box-shadow: inset 0 1px 0 #98c9ff;
+	-moz-box-shadow: inset 0 1px 0 #98c9ff;
+	box-shadow: inset 0 1px 0 #98c9ff;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer; cursor: hand;
+}
+
+
+
+
+
+
 #wp-stripe-wrap {
         display:block;
         padding:10px;

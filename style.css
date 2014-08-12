@@ -75,9 +75,22 @@ h4.cardo {
 	text-transform:uppercase;
 	font-size:18px;
 }
+h5.cardo {
+	font-family: 'Cardo', serif;
+	text-transform:uppercase;
+	font-size:14px;
+}
 h4.vibes {
 	font-family: 'Great Vibes', cursive;
 	font-size:38px;
+}
+h5.vibes {
+	font-family: 'Great Vibes', cursive;
+	font-size:28px;
+}
+.well p {
+	font-size:10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p.vibes {
 	font-family: 'Great Vibes', cursive;
@@ -87,6 +100,15 @@ p.vibes {
 
 
 /* #Skrollr  ================================================== */
+
+.scrollpos{
+    position: fixed;
+    z-index: 100;
+    background: #ffffff;
+    top: 0;
+    right: 0;
+}
+
 
 #skrollr-body {height: 100%;width: 100%;}
 html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
@@ -180,8 +202,17 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	margin: 0 auto;
 }
 .well {
-	z-index:400;
+	margin: -75px 0 0;
+	z-index:2;
 	color:#fff;
+}
+.well a {
+	color:#fff;
+	text-decoration:none;
+}
+.well a:hover {
+	color:purple;
+	text-decoration:none;
 }
 
 #bmlcount {
@@ -189,12 +220,16 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	font-size:39px;
 }
 
+#heart:hover:before,
+#heart:hover:after {
+	background:purple;
+}
 #heart {
     position: relative;
+	margin: 40px 0 0;
     width: 100px;
     height: 90px;
-	color:#fff;
-	z-index:100;
+	z-index:-1;
 }
 #heart:before,
 #heart:after {
@@ -204,7 +239,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
     top: 0;
     width: 50px;
     height: 80px;
-    background: red;
+    background:#BD1B1B;
     -moz-border-radius: 50px 50px 0 0;
     border-radius: 50px 50px 0 0;
     -webkit-transform: rotate(-45deg);
@@ -231,6 +266,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
          -o-transform-origin: 100% 100%;
             transform-origin :100% 100%;
 }
+
 
 @-webkit-keyframes pulse {
   0% {
@@ -271,10 +307,10 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 
 .pulse {
   animation-name: pulse;
-  -webkit-animation: pulse 3s;
-  -moz-animation:    pulse 3s;
-  -o-animation:      pulse 3s;
-  animation:         pulse 3s;
+  -webkit-animation: pulse 2s 5;
+  -moz-animation:    pulse 2s 5;
+  -o-animation:      pulse 2s 5;
+  animation:         pulse 2s 5;
 }
 
 

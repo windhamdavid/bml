@@ -63,8 +63,6 @@ a img {border: 0;}
 .container .offset-by-eight                 { padding-left: 480px; }
 
 /* Fonts ================================================== */
-
-
 h1.monsieur {
 	font-family: 'Monsieur La Doulaise', cursive;
 	font-size:85px;
@@ -312,9 +310,6 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
   -o-animation:      pulse 2s 5;
   animation:         pulse 2s 5;
 }
-
-
-
 
 
 /* Media Queries ========================================= */

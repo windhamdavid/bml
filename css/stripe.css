@@ -3,6 +3,11 @@
 #gform {
 	margin: 0 auto;
 }
+#gform p {
+	font-family: 'Great Vibes', cursive;
+	font-size:19px;
+	margin:10px 0 30px;
+}
 #gform label {
 	font-family: 'Great Vibes', cursive;
 	font-size:17px;
@@ -15,6 +20,12 @@ ul.gfield_checkbox li {float:left;}
 
 .gform_card_icon_container {
 	display:none;
+}
+.ginput_total span {
+	font-size:17px;
+}
+.gfield_creditcard_warning_message {
+	display: none;
 }
 
 #gform_submit_button_1 {

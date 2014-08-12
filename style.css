@@ -38,14 +38,9 @@ a img {border: 0;}
 /* #Clearing  ================================================== */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before,.clearfix:after,.row:before,.row:after {content: '\0020';display: block;overflow: hidden;visibility: hidden;width: 0;height: 0; }
-.row:after,.clearfix:after {clear: both; }.row,.clearfix {zoom: 1; }
-.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
-.clear:before,.clear:after,.entry-content:before,.entry-content:after,.comment-content:before,.comment-content:after,.site-header:before,.site-header:after,.site-content:before,.site-content:after,.site-footer:before,.site-footer:after {content: '';display: table;}
-.clear:after,.entry-content:after,.comment-content:after,.site-header:after,.site-content:after,.site-footer:after {clear: both;}
 
 /* #Base 960 Grid ================================================== */
 .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
-/* Hackety Hack - position needs to be absolute for Skrollr to work right */
 .container .column,
 .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
 .row                                        { margin-bottom: 20px; }

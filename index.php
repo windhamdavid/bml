@@ -110,12 +110,12 @@
 					But it sure could pay for a trip, to start anew.</h4>
 			</div>
 			<div class="story transform2" data-8000="transform:scale(0);opacity:0;" data-9000="transform:scale(1);opacity:1;" 
-			data-9000="transform:scale(1);opacity:1;" data-10000="transform:scale(5);opacity:1;">
+			data-9000="transform:scale(1);opacity:1;" data-10000="transform:scale(5);opacity:0;">
+					<img src="wp-content/themes/bml/img/hat.svg" width="70">
 					<h4 class="vibes">So tip your hat to these big-hearted.<br />
 					Who are embarking on a journey to where it all started.<br />
 					To jumpstart another decade, with its ups and downs.<br />
-					New experiences and perhaps new towns.</h4>
-					<br /><br /><img src="wp-content/themes/bml/img/hat.svg" width="70">	
+					New experiences and perhaps new towns.</h4>	
 			</div>
 		</div>
 		<div class="story" data-9000="top:-50%" data-10000="top:15%;" data-10001="top:15%;">

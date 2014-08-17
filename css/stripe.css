@@ -1,5 +1,16 @@
 /* #Form ================================================== */
-
+.secure {
+	margin:-110px 20px 0 0;
+	font-size:11px;
+	float:right;
+}
+.secure a {
+	text-decoration:none;
+	color:#777;
+}
+.secure a:hover {
+	color:blue;
+}
 #gform {
 	margin: 0 auto;
 }
@@ -37,7 +48,6 @@ ul.gfield_checkbox li {float:left;}
 	font-weight: bold;
 	font-size: 18px;
 	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #cb2121;
     background-image: -moz-linear-gradient(top, #bd1b1b, #e12a2a);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#bd1b1b), to(#e12a2a));
@@ -45,13 +55,9 @@ ul.gfield_checkbox li {float:left;}
     background-image: -o-linear-gradient(top, #bd1b1b, #e12a2a);
     background-image: linear-gradient(to bottom, #bd1b1b, #e12a2a);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbd1b1b', endColorstr='#ffe12a2a', GradientType=0);
     border-color: #e12a2a #e12a2a #a71818;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     *background-color: #e12a2a;
-	-webkit-box-shadow: inset 0 1px 0 #98c9ff;
-	-moz-box-shadow: inset 0 1px 0 #98c9ff;
-	box-shadow: inset 0 1px 0 #98c9ff;
 	-o-border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -59,7 +65,7 @@ ul.gfield_checkbox li {float:left;}
 	cursor: pointer; cursor: hand;
 }
 #gform_submit_button_1:hover {
-    color: #ffffff;
+    color:#cecece;
     background-color: #ff001e;
     *background-color: #e6001b;
 }

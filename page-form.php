@@ -20,6 +20,9 @@
 		<div id="gform">
 			<?php gravity_form(1, false, false, false, '', true); ?>
 		</div>
+		<div class="secure">
+			<p>Payments processed by <a target="_blank" href="https://stripe.com/us/features#seamless-security">Stripe</a></p>
+		</div>
 	</div>
 </div>
 <?php wp_footer(); ?>

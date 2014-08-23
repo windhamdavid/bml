@@ -65,7 +65,7 @@
 	
 	<div id="intro" data-0="display:block;" data-1400="display:none;">
 		<div class="intro_ease" data-0="left:92%" data-1500="left:0%;">
-			<h4 class="cardo">You're cordially invited</h4>
+			<h4 class="cardo">You are cordially invited</h4>
 			<h4 class="cardo">to celebrate the marriage of</h4><br />
 			<h1 class="monsieur">David A. Windham</h1>
 			<h4 class="cardo">and</h4><br />
@@ -81,7 +81,7 @@
 			<h4 class="vibes">No need to dress up, no need to wrap gifts.</h4>
 			<h4 class="vibes">Just stay at home, and send us a good wish.</h4>
 			<h4 class="vibes">We appreciate your love and cheer.</h4>
-			<h4 class="vibes">But we're off on our journey, have no fear.</h4>
+			<h4 class="vibes">But we're off on our journey, to start a new year.</h4>
 			<br /><br /><img src="wp-content/themes/bml/img/dress.png" width="70">	
 		</div>
 	</div>
@@ -96,15 +96,15 @@
 			<div class="story transform" data-5000="top:200%" data-5500="top:35%;" data-6000="top:35%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">Days and weeks and many more,<br />
-					The couple found love they could not ignore.<br />
-					They dwelled in cities, the trees, and farm,<br />
-					Each would have its newfound charm.</h4>
+					The couple found love they could not ignore.<br /></h4>
 			</div>
 		</div>
 		<div id="story_wrap">
 			<div class="story transform2" data-6100="transform:scale(0);opacity:0;" data-7100="transform:scale(1);opacity:1;"
 			 data-8100="transform:scale(1);opacity:1;" data-9100="transform:scale(5);opacity:0;">	
-					<h4 class="vibes">And then one day came when they decided to marry.<br />
+					<h4 class="vibes">They dwelled in cities, the trees, and farm,<br />
+					Each would have its newfound charm.<br />
+					And then one day came when they decided to marry.<br />
 					They had made it 10 years, after all, it’s not so scary.<br />
 					Money can’t buy love, this they knew.<br />
 					But it sure could pay for a trip, to start anew.</h4>
@@ -120,7 +120,7 @@
 		</div>
 		<div class="story" data-9000="top:-50%" data-10000="top:15%;" data-10001="top:15%;">
 				<h4 class="vibes">But have no worries for this one of many couples.<br />
-				Because they’re a good team and can tackle life’s troubles.<br />
+				Because they’re a good team and together can tackle life’s troubles.<br />
 				For it is their love that will make them last.<br />
 				This guy named Windham and girl named Gast.</h4><br /><br />
 				<div id="bmlcount"></div>

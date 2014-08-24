@@ -16,8 +16,8 @@
 <body>
 	<div class="scrollpos"></div>
 	<div id="bg1" data-0="display:none;" data-1000="display:block;background-position:0px 0px;" data-end="background-position:500px 10000px;"></div>
-	<div id="bg2" data-0="display:none;" data-4000="display:block;background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
-	<div id="bg3" data-0="display:none;" data-8000="display:block;background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+	<div id="bg2" data-0="display:none;" data-4000="display:block;background-position:0px 0px;" data-end="background-position:500px -8000px;"></div>
+	<div id="bg3" data-0="display:none;" data-8000="display:block;background-position:0px 0px;" data-end="background-position:500px -6000px;"></div>
 	
 	<div id="horizon" data-0="display:none;right:0%" data-2500="display:block;" data-4000="right:0%" data-5000="right:-25%" data-6000="right:-25%" data-7000="right:-70%" data-9000="right:-150%" data-9500="right:-170%">
 	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="3300" height="300">

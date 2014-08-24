@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
 	});
 	$(window).scroll(function() {    
 	    var scroll = $(window).scrollTop();
-	    if (scroll >= 9950) {
+	    if (scroll >= 11950) {
 	        $("#heart").addClass("pulse");
 	    }
 	});

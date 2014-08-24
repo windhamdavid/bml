@@ -88,12 +88,12 @@
 	
 	<div id="story">
 		<div id="story_wrap" data-5000="background:rgba(255,255,255,0);" data-5700="background:rgba(235,235,255,.5);" data-7000="background:rgba(255,255,255,0);">
-			<div class="story transform" data-3400="top:-25%" data-4000="top:15%;" data-6000="top:15%;"
+			<div class="story transform" data-3400="top:-30%" data-4000="top:15%;" data-6000="top:15%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">About 10 years ago<br /> a guy named Dave met a girl named Ginny.<br />
 					Soon after, the two would take a trip to New York City.</h4>
 			</div>	
-			<div class="story transform" data-5000="top:200%" data-5500="top:35%;" data-6000="top:35%;"
+			<div class="story transform" data-5000="top:200%" data-5500="top:40%;" data-6000="top:40%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">Days and weeks and many more,<br />
 					The couple found love they could not ignore.<br /></h4>
@@ -110,7 +110,7 @@
 					But it sure could pay for a trip, to start anew.</h4>
 			</div>
 			<div class="story transform2" data-8000="transform:scale(0);opacity:0;" data-9000="transform:scale(1);opacity:1;" 
-			data-9000="transform:scale(1);opacity:1;" data-10000="transform:scale(5);opacity:0;">
+			data-10000="transform:scale(1);opacity:1;" data-12000="transform:scale(5);opacity:0;">
 					<img src="wp-content/themes/bml/img/hat.svg" width="70">
 					<h4 class="vibes">So tip your hat to these big-hearted.<br />
 					Who are embarking on a journey to where it all started.<br />
@@ -118,16 +118,17 @@
 					New experiences and perhaps new towns.</h4>	
 			</div>
 		</div>
-		<div class="story" data-9000="top:-50%" data-10000="top:15%;" data-10001="top:15%;">
+		<div class="story" data-10000="top:-50%" data-12000="top:15%;" data-12001="top:15%;">
 				<h4 class="vibes">But have no worries for this one of many couples.<br />
 				Because they’re a good team and together can tackle life’s troubles.<br />
 				For it is their love that will make them last.<br />
 				This guy named Windham and girl named Gast.</h4><br /><br />
 				<div id="bmlcount"></div>
 				<div class="wish">	
-					<a href='wish'><div id="heart" data-0="display:none;" data-9000="display:block;transform:scale(30);opacity:0;" data-10000="transform:scale(1);opacity:1;"></div></a>
+					<a href='wish'><div id="heart" data-0="display:none;" data-11000="display:block;transform:scale(30);opacity:0;" data-12000="transform:scale(1);opacity:1;"></div></a>
 					<div class="well"><p><a href='wish'><b>Click to<br />Wish Us Well</b></a></p></div>
 				</div>
+				<p class="mobile">P.S. This site has is best on a large screen!</p>
 		</div>	
 	</div>
 

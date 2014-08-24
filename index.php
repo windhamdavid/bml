@@ -22,7 +22,8 @@
 	<div id="horizon" data-0="display:none;right:0%" data-2500="display:block;" data-4000="right:0%" data-5000="right:-25%" data-6000="right:-25%" data-7000="right:-70%" data-9000="right:-150%" data-9500="right:-170%">
 	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="3300" height="300">
 		<path style="fill:#fff;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10000;stroke-dashoffset:0" 
-		data-2500="stroke-dashoffset:10000;" data-4800="fill:rgb(255,255,255,0);fill-opacity:0;stroke-dashoffset:6000;"  data-8000="fill:rgb(255,255,255,1);fill-opacity:1;stroke-dashoffset:5500;" data-9000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5000;"  data-9500="stroke-dashoffset:3000;" data-10000="stroke-dashoffset:0;"	
+		data-2500="stroke-dashoffset:10000;" data-4800="fill:rgb(255,255,255,0);fill-opacity:0;stroke-dashoffset:6000;" data-9000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5000;" data-9500="stroke-dashoffset:3000;" data-10900="stroke-dashoffset:0;"
+		 data-11000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5500;"  	
 		d="M3300.3,0
 			c-83.5-3.9,34.7,260.3-23.3,284.3c-79.4,32.9-28.7-272-104-242c-59.1,23.5,54.1,202.8,1.3,220.7c-43.3,14.7-64-109.5-87.3-98.7
 			c-20.9,9.7,12.8,106.9-1.3,112.7c-22.7,9.3-27.5-53.6-55.3-47.3c-26.7,6,21.3,46.7-47.9,61.2c-0.7,0.1-2.7,0-2.7,0v-1.5h-10.2v-0.5
@@ -56,13 +57,23 @@
 			h-0.2v3.2l-0.3,0.3v5.3l-2.1,1.5l-1.2-0.8l0-9.4l-0.6-1v-3.4l-0.2-0.1l-0.2,0.1v3.4l-0.7,1v9.6h-4v2.3h-2.3v0.7h-1.2v3h-0.5v7.4
 			h-3.2v4h-0.7v15.3h-2.7v2.3l-0.7,1.3h-2.5v0.8h-5.9v-2h-4.4v2h-1.2v-1.7h-1.2v-2.8l-0.5-1.9h-3v-4l-2,0V257l-0.9-0.7l-1,0.7v2.3
 			h-2.2l-2.9,5.9v7.2l-0.7,0.7v3.2h-2.5v-4l-1-1h-17.1v1.8h-0.8v6.4h-16.4v4.2h-5.8l-0.1,4.9h-3.9c0,0-2.9,7.2-4.9,8.5
-			c-14.4,9.4-33-22-60-22c-24.4,0-61.4,18.7-82.3,22.6c-19.7,3.7-60.4-20.1-81.3-22c-24.7-2.2-72.2,17.6-96.7,21.4
-			c-18.3,2.9-61.5-24.5-80-25.1c-138.9-4.1-453.9-158.7-745.3-172.3c-287.2-13.5-551.6,113.8-594,136.7
-			c-101.8,54.9-206,81.3-208.7,21.3C35.1,64.5,582.1,86.5,567,10.3c-11.5-58.1-586.3-36-586.3-36l10,332.7l3320.3-3.5
-			C3311,303.5,3325,1.2,3300.3,0z"/>
+			c-14.4,9.4-33-22-60-22c-24.4,0-61.4,18.7-82.3,22.6c-19.7,3.7-60.4-20.1-81.3-22c-24.7-2.2-71.9,22-96.7,21.4
+			C1624,296,1573.9,226,1497,246c-142,37-359.2-132.7-650.7-146.3c-192-9-373.7,44.9-485.8,88.4c-55.6,21.6-94.1,40.7-108.2,48.2
+			C150.5,291.2-43.3,327-46,267c-2.7-60.4-1.2-41.1,35-109c10.7-20.1-64.7-10-22-37c38-24,12.6-47.7,5-86c-11.5-58.1-99-44-99-44
+			L-9.3,307l3320.3-3.5C3311,303.5,3325,1.2,3300.3,0z"/>
 		</svg>
 	</div>
-	
+	<div id="bmw" data-0="opacity:0;transform-origin:50% 50%;" 
+	data-7500="opacity:0;top:110%" 
+	data-8000="opacity:1;top:100%;margin-left:800px;transform:rotate(10deg);" 
+	data-8500="top:95%;margin-left:600px;transform:rotate(10deg);" 
+	data-9000="top:80%;margin-left:500px;transform:rotate(10deg);" 
+	data-9250="top:68%;margin-left:300px;transform:rotate(0deg);" 
+	data-9500="top:65%;margin-left:200px;transform:rotate(-10deg);" 
+	data-10000="top:65%;margin-left:0px;transform:rotate(-20deg);" 
+	data-11000="top:65%;margin-left:-150px;transform:rotate(-30deg);">
+		<img src="wp-content/themes/bml/img/bmw.gif">
+	</div>
 	<div id="intro" data-0="display:block;" data-1400="display:none;">
 		<div class="intro_ease" data-0="left:92%" data-1500="left:0%;">
 			<h4 class="cardo">You are cordially invited</h4>
@@ -85,15 +96,14 @@
 			<br /><br /><img src="wp-content/themes/bml/img/dress.png" width="70">	
 		</div>
 	</div>
-	
 	<div id="story">
-		<div id="story_wrap" data-5000="background:rgba(255,255,255,0);" data-5700="background:rgba(235,235,255,.5);" data-7000="background:rgba(255,255,255,0);">
+		<div id="story_wrap" data-5000="background:rgba(0,0,0,0);color#000000;" data-5700="background:rgba(0,0,0,1);color:#ffffff;" data-7000="background:rgba(0,0,0,0);color#000000;">
 			<div class="story transform" data-3400="top:-30%" data-4000="top:15%;" data-6000="top:15%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">About 10 years ago<br /> a guy named Dave met a girl named Ginny.<br />
 					Soon after, the two would take a trip to New York City.</h4>
 			</div>	
-			<div class="story transform" data-5000="top:200%" data-5500="top:40%;" data-6000="top:40%;"
+			<div class="story transform" data-5000="top:200%" data-5500="top:80%;" data-6000="top:40%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">Days and weeks and many more,<br />
 					The couple found love they could not ignore.<br /></h4>

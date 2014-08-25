@@ -21,7 +21,7 @@
 	
 	<div id="horizon" data-0="display:none;right:0%" data-2500="display:block;" data-4000="right:0%" data-5000="right:-25%" data-6000="right:-25%" data-7000="right:-70%" data-9000="right:-150%" data-9500="right:-170%">
 	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="3300" height="300">
-		<path style="fill:#fff;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10000;stroke-dashoffset:0" 
+		<path id="path" style="fill:#fff;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10000;stroke-dashoffset:0" 
 		data-2500="stroke-dashoffset:10000;" data-4800="fill:rgb(255,255,255,0);fill-opacity:0;stroke-dashoffset:6000;" data-9000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5000;" data-9500="stroke-dashoffset:3000;" data-10900="stroke-dashoffset:0;"
 		 data-11000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5500;"  	
 		d="M3300.3,0
@@ -64,15 +64,14 @@
 		</svg>
 	</div>
 	<div id="bmw" data-0="opacity:0;transform-origin:50% 50%;" 
-	data-7500="opacity:0;top:110%" 
-	data-8000="opacity:1;top:100%;margin-left:800px;transform:rotate(10deg);" 
-	data-8500="top:95%;margin-left:600px;transform:rotate(10deg);" 
-	data-9000="top:80%;margin-left:500px;transform:rotate(10deg);" 
-	data-9250="top:68%;margin-left:300px;transform:rotate(0deg);" 
-	data-9500="top:65%;margin-left:200px;transform:rotate(-10deg);" 
-	data-10000="top:65%;margin-left:0px;transform:rotate(-20deg);" 
-	data-11000="top:65%;margin-left:-150px;transform:rotate(-30deg);">
+	data-8000="opacity:1;top:100%;" 
+	data-8500="top:70%;margin-left:100%;" 
+	data-11000="top:70%;margin-left:-15%;">
 		<img src="wp-content/themes/bml/img/bmw.gif">
+        <animateMotion dur="6s" rotate="auto">
+           <mpath xlink:href="#path"/>
+        </animateMotion>
+		
 	</div>
 	<div id="intro" data-0="display:block;" data-1400="display:none;">
 		<div class="intro_ease" data-0="left:92%" data-1500="left:0%;">
@@ -97,7 +96,7 @@
 		</div>
 	</div>
 	<div id="story">
-		<div id="story_wrap" data-5000="background:rgba(0,0,0,0);color#000000;" data-5700="background:rgba(0,0,0,1);color:#ffffff;" data-7000="background:rgba(0,0,0,0);color#000000;">
+		<div id="story_wrap" data-5000="background:rgba(0,0,0,0)" data-5700="background:rgba(0,0,0,1);color:#ffffff;" data-7000="background:rgba(0,0,0,0);color#000000;">
 			<div class="story transform" data-3400="top:-30%" data-4000="top:15%;" data-6000="top:15%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">About 10 years ago<br /> a guy named Dave met a girl named Ginny.<br />

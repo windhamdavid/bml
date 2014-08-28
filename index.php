@@ -14,27 +14,14 @@
 <?php wp_head(); ?>
 </head>
 <body>
-	<div class="scrollpos"></div>
 	<div id="bg1" data-0="display:none;" data-1000="display:block;background-position:0px 0px;" data-end="background-position:500px 10000px;"></div>
 	<div id="bg2" data-0="display:none;" data-4000="display:block;background-position:0px 0px;" data-end="background-position:500px -8000px;"></div>
 	<div id="bg3" data-0="display:none;" data-8000="display:block;background-position:0px 0px;" data-end="background-position:500px -6000px;"></div>
-	
 	<div id="horizon" 
-	data-0="display:none;right:0%" 
-	data-2500="display:block;" 
-	data-4000="right:0%" 
-	data-5000="right:-25%" 
-	data-6000="right:-25%" 
-	data-7000="right:-70%" 
-	data-9000="right:-150%" 
-	data-9500="right:-170%">
+	data-0="display:none;right:0%" data-2500="display:block;" data-4000="right:0%" data-5000="right:-25%" data-6000="right:-25%" data-7000="right:-70%" data-9000="right:-150%" data-9500="right:-170%">
 	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="3300" height="300">
 		<path id="path" style="fill:#fff;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10000;stroke-dashoffset:0" 
-		data-2500="stroke-dashoffset:10000;" 
-		data-4800="fill:rgb(255,255,255,0);fill-opacity:0;stroke-dashoffset:5800;" 		data-8000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5600;" 
-		data-9500="stroke-dashoffset:2000;" 
-		data-10000="stroke-dashoffset:4000;"
-		data-11000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5500;"  	
+		data-2500="stroke-dashoffset:10000;" data-4800="fill:rgb(255,255,255,0);fill-opacity:0;stroke-dashoffset:5800;" data-8000="fill:rgb(255,255,255,1);fill-opacity:1;stroke-dashoffset:5600;" data-9500="stroke-dashoffset:2000;fill-opacity:0;" data-10000="stroke-dashoffset:4000;" data-11000="fill:rgb(255,255,255,1);fill-opacity:0;stroke-dashoffset:5500;"  	
 		d="M3300.3,0
 			c-83.5-3.9,34.7,260.3-23.3,284.3c-79.4,32.9-28.7-272-104-242c-59.1,23.5,54.1,202.8,1.3,220.7c-43.3,14.7-64-109.5-87.3-98.7
 			c-20.9,9.7,12.8,106.9-1.3,112.7c-22.7,9.3-27.5-53.6-55.3-47.3c-26.7,6,21.3,46.7-47.9,61.2c-0.7,0.1-2.7,0-2.7,0v-1.5h-10.2v-0.5
@@ -97,7 +84,7 @@
 		</div>
 	</div>
 	<div id="story">
-		<div id="story_wrap" data-5000="background:rgba(0,0,0,0)" data-5700="background:rgba(0,0,0,1);color:#ffffff;" data-7000="background:rgba(0,0,0,0);color#000000;">
+		<div id="story_wrap" data-5000="background:rgba(0,0,0,0);color:rgb(0,0,0);" data-5700="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-7000="background:rgba(0,0,0,0);color#000000;">
 			<div class="story transform" data-3400="top:-30%" data-4000="top:15%;" data-6000="top:15%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">About 10 years ago<br /> a guy named Dave met a girl named Ginny.<br />
@@ -121,7 +108,7 @@
 			</div>
 			<div class="story transform2" data-8000="transform:scale(1);opacity:0;" data-9000="opacity:1;" 
 			data-10000="opacity:1;" data-12000="transform:scale(0);opacity:0;">
-				<div id="hat" data-8000="transform:rotate(0deg);transform-origin: 10% 50%;" data-10000="transform:rotate(-36deg);">
+				<div id="hat" data-9000="transform:rotate(0deg);transform-origin: 10% 50%;" data-10000="transform:rotate(-36deg);">
 				<img src="wp-content/themes/bml/img/hat.svg" width="70">
 				</div>
 					<h4 class="vibes">So tip your hat to these big-hearted.<br />
@@ -130,7 +117,7 @@
 					New experiences and perhaps new towns.</h4>	
 			</div>
 		</div>
-		<div class="story" data-10000="top:-50%" data-12000="top:15%;" data-12001="top:15%;">
+		<div id="storyend" data-10000="top:-50%" data-12000="top:15%;" data-12001="top:15%;">
 				<h4 class="vibes">But have no worries for this one of many couples.<br />
 				Because they’re a good team and together can tackle life’s troubles.<br />
 				For it is their love that will make them last.<br />
@@ -138,21 +125,23 @@
 				<div id="bmlcount"></div>
 				<div class="wish">	
 					<a href='wish'><div id="heart" data-0="display:none;" data-11000="display:block;transform:scale(30);opacity:0;" data-12000="transform:scale(1);opacity:1;"></div></a>
-					<div class="well"><p><a href='wish'><b>Click to<br />Wish Us Well</b></a></p></div>
+					<div class="well"><p><a href='wish'><b>Wish Us Well</b></a></p></div>
 				</div>
 				<p class="mobile">P.S. This site has is best on a large screen!</p>
-		</div>	
+		</div>
 	</div>
+	<div id="storyendloop" data-0="display:none;" data-9500="display:block;top:50%;margin-left:50%;" >
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="1000">	
+		<path id="pathend" style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+		data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M300,41.9c-83.5-3.9-5.8,192.2-63.8,216.2
+			C156.8,291,260.6-22.2,185.3,7.8c-59.1,23.5-75.4,133.1-128.1,151"/>
+		</svg>
 
+	</div>
+	
 <?php wp_footer(); ?>
-
-<script>
-var s = skrollr.init({
-	edgeStrategy: 'set', 
-	easing: {inverted: function(p) {return 1-p;}},
-	render: function(data) {document.querySelector('.scrollpos').innerHTML = data.curTop;} });
-	skrollr.menu.init(s), {animate: true, easing: 'sqrt', scale: 2, duration: function(currentTop, targetTop) {return 500;},}
-</script>
+<script>var s = skrollr.init({ edgeStrategy: 'set', easing: {inverted: function(p) {return 1-p;}} });</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

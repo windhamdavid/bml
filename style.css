@@ -132,7 +132,6 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	.intro_ease {
 		width:100%;
 		height:100%;
-		background:#fff;
 	}
 #intro2 {
 	width:80%;
@@ -176,10 +175,17 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	height:100%;
 }
 #hat {
-	width:100%;
-	height:100%;	
+	
 }
 #wish {
+	width:100%;
+	height:100%;
+}
+#storyend {
+	width:100%;
+	height:100%;
+}
+#storyendloop {
 	width:100%;
 	height:100%;
 }
@@ -208,7 +214,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	position:relative;
 }
 .well {
-	margin: -75px 0 0;
+	margin: -70px 0 0;
 	z-index:100;
 	color:#fff;
 }
@@ -217,7 +223,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	text-decoration:none;
 }
 .well a:hover {
-	color:purple;
+	color:#cecece;
 	text-decoration:none;
 }
 
@@ -229,6 +235,7 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 #heart:hover:before,
 #heart:hover:after {
 	background:purple;
+	
 }
 #heart {
     position: relative;

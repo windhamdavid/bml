@@ -58,7 +58,7 @@
 			c-14.4,9.4-33-22-60-22c-24.4,0-1932,0-1932,0l-9.3,32l3320.3-3.5C3311,303.5,3325,1.2,3300.3,0z"/>
 		</svg>
 	</div>
-	<div id="bmw" data-8000="margin-left:100%;" data-9000="margin-left:-15%;">
+	<div id="bmw" data-8000="margin-left:100%;display:block;" data-9000="margin-left:-25%;display:none;">
 		<img src="wp-content/themes/bml/img/bmw.gif">		
 	</div>
 	<div id="intro" data-0="display:block;" data-1400="display:none;">
@@ -70,6 +70,7 @@
 			<h1 class="monsieur">Ginny L. Gast</h1><br />
 			<h4 class="cardo">Saturday, The Twenty-Seventh Of September<br/>Two Thousand Fourteen</h4><br />
 			<img src="wp-content/themes/bml/img/swirl.png">
+			<p class="mobile">This site has is best on a large screen!</p>
 		</div>
 	</div>
 	
@@ -108,13 +109,13 @@
 			</div>
 			<div class="story transform2" data-8000="transform:scale(1);opacity:0;" data-9000="opacity:1;" 
 			data-10000="opacity:1;" data-12000="transform:scale(0);opacity:0;">
-				<div id="hat" data-9000="transform:rotate(0deg);transform-origin: 10% 50%;" data-10000="transform:rotate(-36deg);">
-				<img src="wp-content/themes/bml/img/hat.svg" width="70">
-				</div>
 					<h4 class="vibes">So tip your hat to these big-hearted.<br />
 					Who are embarking on a journey to where it all started.<br />
 					To jumpstart another decade, with its ups and downs.<br />
 					New experiences and perhaps new towns.</h4>	
+					<div id="hat" data-9000="transform:rotate(0deg);" data-10000="transform:rotate(-36deg);">
+					<img src="wp-content/themes/bml/img/hat.svg" width="70">
+					</div>
 			</div>
 		</div>
 		<div id="storyend" data-10000="top:-50%" data-12000="top:15%;" data-12001="top:15%;">
@@ -127,18 +128,10 @@
 					<a href='wish'><div id="heart" data-0="display:none;" data-11000="display:block;transform:scale(30);opacity:0;" data-12000="transform:scale(1);opacity:1;"></div></a>
 					<div class="well"><p><a href='wish'><b>Wish Us Well</b></a></p></div>
 				</div>
-				<p class="mobile">P.S. This site has is best on a large screen!</p>
+
 		</div>
 	</div>
-	<div id="storyendloop" data-0="display:none;" data-9500="display:block;top:50%;margin-left:50%;" >
-		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="1000">	
-		<path id="pathend" style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-		data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
-		<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M300,41.9c-83.5-3.9-5.8,192.2-63.8,216.2
-			C156.8,291,260.6-22.2,185.3,7.8c-59.1,23.5-75.4,133.1-128.1,151"/>
-		</svg>
 
-	</div>
 	
 <?php wp_footer(); ?>
 <script>var s = skrollr.init({ edgeStrategy: 'set', easing: {inverted: function(p) {return 1-p;}} });</script>

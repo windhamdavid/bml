@@ -128,7 +128,6 @@
 					<a href='wish'><div id="heart" data-0="display:none;" data-11000="display:block;transform:scale(30);opacity:0;" data-12000="transform:scale(1);opacity:1;"></div></a>
 					<div class="well"><p><a href='wish'><b>Wish Us Well</b></a></p></div>
 				</div>
-
 		</div>
 	</div>
 

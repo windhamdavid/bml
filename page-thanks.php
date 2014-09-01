@@ -10,11 +10,8 @@
 </head>
 <body>
 <div class="container">
-
-</div>
-<div class="container">
 	<div class="column sixteen">
-		<div class="form_header">
+		<div class="page_header">
 			<h5 class="vibes">&#10087; &nbsp; David A. Windham&nbsp;  &amp; &nbsp; Ginny L. Gast &nbsp; &#10087;</h5>
 			<h5 class="cardo">The Twenty-Seventh Of September, Two Thousand Fourteen</h4><br />
 			<img src="../wp-content/themes/bml/img/swirl.png" width="100">		

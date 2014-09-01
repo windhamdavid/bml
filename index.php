@@ -132,7 +132,14 @@
 					<div class="well"><p><a class="wish" href="wish" target="_self"><b>Wish Us Well</b></a></p></div>
 				</div>
 		</div>
-
+		<div id="storyendloop" data-0="display:none;" data-9500="display:block;top:50%;margin-left:50%;" >
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="1000">	
+			<path id="pathend" style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+			<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M300,41.9c-83.5-3.9-5.8,192.2-63.8,216.2
+			C156.8,291,260.6-22.2,185.3,7.8c-59.1,23.5-75.4,133.1-128.1,151"/>
+			</svg>
+		</div>
 	</div>
 
 	

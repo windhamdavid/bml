@@ -124,11 +124,15 @@
 				For it is their love that will make them last.<br />
 				This guy named Windham and girl named Gast.</h4><br /><br />
 				<div id="bmlcount"></div>
-				<div class="wish">	
-					<a href='wish'><div id="heart" data-0="display:none;" data-11000="display:block;transform:scale(30);opacity:0;" data-12000="transform:scale(1);opacity:1;"></div></a>
-					<div class="well"><p><a href='wish'><b>Wish Us Well</b></a></p></div>
+				
+				<div class="wish">
+					<div id="heart2" data-0="display:none;" data-11500="display:block;transform:scale(.1);opacity:0;" data-12000="transform:scale(1);opacity:1;">
+					<a class="wish" href="wish" target="_self"><img id="trans" src="wp-content/themes/bml/img/heart.png"></a>
+					</div>
+					<div class="well"><p><a class="wish" href="wish" target="_self"><b>Wish Us Well</b></a></p></div>
 				</div>
 		</div>
+
 	</div>
 
 	

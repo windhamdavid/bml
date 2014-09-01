@@ -176,9 +176,9 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	width:100%;
 	height:100%;
 }
-#wish {
-	width:100%;
-	height:100%;
+#trans {
+	margin: -100px 0 0 -100px;
+	z-index: 9999 !important;
 }
 #storyend {
 	width:100%;
@@ -230,10 +230,11 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 	font-family: 'Great Vibes', cursive;
 	font-size:39px;
 }
-
-#heart:hover:before,
-#heart:hover:after {
-	background:purple;
+#heart2 {
+	margin: 180px 0 0 50px;
+	font-size:48px;
+	color:;
+	text-decoration:none;
 	
 }
 #heart {
@@ -318,11 +319,12 @@ html, body {width:100%;height:100%;padding:0;margin:0;overflow-x:hidden;}
 }
 
 .pulse {
-  animation-name: pulse;
-  -webkit-animation: pulse 2s 3;
-  -moz-animation:    pulse 2s 3;
-  -o-animation:      pulse 2s 3;
-  animation:         pulse 2s 3;
+	transform-origin:0 0;
+	animation-name: pulse;
+	-webkit-animation: pulse 2s 3;
+	-moz-animation:    pulse 2s 3;
+	-o-animation:      pulse 2s 3;
+	animation:         pulse 2s 3;
 }
 
 p.mobile {

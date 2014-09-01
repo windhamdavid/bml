@@ -10,9 +10,19 @@
 </head>
 <body>
 <div class="container">
-	<?php while ( have_posts() ) : the_post(); ?>
-		<?php the_content(); ?>
-	<?php endwhile;?>
+
+</div>
+<div class="container">
+	<div class="column sixteen">
+		<div class="form_header">
+			<h5 class="vibes">&#10087; &nbsp; David A. Windham&nbsp;  &amp; &nbsp; Ginny L. Gast &nbsp; &#10087;</h5>
+			<h5 class="cardo">The Twenty-Seventh Of September, Two Thousand Fourteen</h4><br />
+			<img src="../wp-content/themes/bml/img/swirl.png" width="100">		
+		</div>
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php the_content(); ?>
+		<?php endwhile;?>
+	</div>
 </div>
 <?php wp_footer(); ?>
 <script>

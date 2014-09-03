@@ -126,10 +126,7 @@
 				<div id="bmlcount"></div>
 				
 				<div class="wish">
-					<div id="heart2" data-0="display:none;" data-11500="display:block;transform:scale(.1);opacity:0;" data-12000="transform:scale(1);opacity:1;">
-					<a class="wish" href="wish" target="_self"><img id="trans" src="wp-content/themes/bml/img/heart.png"></a>
-					</div>
-					<div class="well"><p><a class="wish" href="wish" target="_self"><b>Wish Us Well</b></a></p></div>
+					<div id="heart" data-0="display:none;" data-11000="display:block;transform:scale(30);opacity:0;" data-12000="transform:scale(1);opacity:1;"></div>
 				</div>
 		</div>
 		<div id="storyendbg" data-0="display:none;" data-12000="display:block;top:0%;background:rgba(0,0,0,0);color:rgb(0,0,0);" data-13000="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-15000="background:rgba(0,0,0,0);color:rgb(0,0,0);">

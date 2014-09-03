@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
 	$(window).scroll(function() {    
 	    var scroll = $(window).scrollTop();
 	    if (scroll >= 11950) {
-	        $("#heart2").addClass("pulse");
+	        $("#heart").addClass("pulse");
 	    }
 	});
 });

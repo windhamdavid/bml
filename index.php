@@ -118,7 +118,7 @@
 					</div>
 			</div>
 		</div>
-		<div id="storyend" data-10000="top:-50%" data-12000="top:15%;" data-12001="top:15%;">
+		<div id="storyend" data-10000="top:-50%" data-12000="top:15%;" data-12500="top:15%;" data-13000="top:-50%">
 				<h4 class="vibes">But have no worries for this one of many couples.<br />
 				Because they’re a good team and together can tackle life’s troubles.<br />
 				For it is their love that will make them last.<br />
@@ -132,80 +132,97 @@
 					<div class="well"><p><a class="wish" href="wish" target="_self"><b>Wish Us Well</b></a></p></div>
 				</div>
 		</div>
-		
-		<div id="storyendloop" data-0="display:none;" data-9500="display:block;top:60%;margin-left:0%;" >
+		<div id="storyendbg" data-0="display:none;" data-12000="display:block;top:0%;background:rgba(0,0,0,0);color:rgb(0,0,0);" data-13000="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-15000="background:rgba(0,0,0,0);color:rgb(0,0,0);">
+		&nbsp;
+		</div>
+		<div id="storyendloop" data-0="display:none;" data-13000="display:block;top:40%;" data-14000="top:40%;" data-15000="top:-20%;">
 			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="300">	
-			<path id="pathend" style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
-			d="M398.9,84.2c-83.5-3.9-94.2,16.1-140,10.2 c-85.2-11-58.5-8.1-103.5,1.8C73.6,114.1,32.9,69.9,99.4,45"/>
-			<g>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;" 
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;" 
 			d="M98.1,45.9c-2.2,0.4-1.7-0.6-0.1-1.2c15.9-4.9,14,17.1-3.7,24.5C83,73.9,68.9,62.4,77,44c7.7-17.8,31-28.9,43.7-23.3
 					c10.4,4.6,7.2,18.1,2.1,29.6c-4.2,9.5-9,22.5-10.4,29.4c-1,5,0.9,5.8,3.7,4c8.8-5.2,18.6-26,24.9-34.7c3.7-5.3,6.8-3.5,4.8,2.4
 					c-1.9,5.4-6.4,13.8-7.2,19.9c-2.6,20.7,23.6,3.7,29.7-10.7c6-14.2,4.2-27.1-7.3-25.5c-6.5,1.7-2.3-2.4,1-1.7
 					c9.2-0.8,17.6,10.4,10.7,27.9c-7.3,18.6-36.2,30.9-37.6,11.9c-0.2-3.5,0.6-7.4,1.4-10.3c-4,6.6-15.4,23.2-23.3,23.5
 					c-2.9,0.1-5.5-1.6-5-7.5c0.4-6,4-15.5,9.4-28.4c3.7-8.9,9-24.1,3.4-27.6c-11.7-7.2-34,7.6-40,23.7c-6.7,18.1,3.9,24.4,13.5,20.9
 					C104.5,63.9,110.9,43.8,98.1,45.9"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M179.1,75.9c1.1,0.1,2.4-0.6,3.2-1.4c2.4-2.4,4.8-6.8,6.8-10.9c0.6-1.3,1.6-0.8,0.9,0.6c-1.9,4-6,13.2-11.3,13.2
 					c-5.4,0-5.4-5.6-3.9-9.4l4.6-11.7c0.6-1.4-0.4-2.7-0.7-3l4-0.1c2.3,0,2.3,0.8,1.5,2.5l-5.8,13.5c0,0-0.7,1.6-0.9,2.1
 					C177,73.7,177.1,75.7,179.1,75.9z M184.3,50.3c-1.7,0-2.7-1.3-2.5-3c0.3-1.7,1.9-3,3.5-3c1.7,0,2.8,1.3,2.5,3S186,50.3,184.3,50.3z
 					"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M193.7,77c-1,0.4-2,0.7-3,0.7c-8.7,0-7.1-10-3.6-10.2c1.9-3.7,4.3-8.4,6.2-12.5c1.3-2.8,3.5-5.8,6-6.2
 					c1.1-0.1,1.9,0,2.7,0.4c1.3,0.6,1,1.9-0.3,1.2c-0.7-0.3-1.6-0.4-2.3-0.1c-3.3,1.6-2.6,6.6-1.5,9.1c1.2,2.7,2.7,5.3,2.6,8.5
 					c-0.1,2.8-2.3,6.1-5.1,8l0.5,0.1c2.4,0.4,4.7-1.2,6.5-3.3c1.7-2,3.9-6.5,5.4-9.4c0.4-0.7,1.4-0.3,1.1,0.4
 					C206.1,69.8,201.8,79.5,193.7,77z M188.8,70.8c-2.3,2.3-1.4,5.7,1.4,5.7c0.5,0,1-0.1,1.4-0.3C190.2,75.3,188.9,73.6,188.8,70.8z
 					 M195.1,54.4c-1.9,3.9-5,10.2-6.8,13.3c0,0,1.6-0.1,1.5,2.3c-0.1,2.7,1.4,4.8,3,5.5c1.6-1.2,3-3.7,3.2-7.5
 					C196.3,63.6,194.5,57.7,195.1,54.4z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M220.8,77.8c-2.5,0-6-1.7-3.8-8.4c0.6-1.9,1.9-4.3,4-7.6c1.7-2.8,0.4-4.8-5.1,0.4c-2.4,2.2-6,6.3-10.1,14.3
 					c-0.5,1-1.2,1.1-2.7,1.1c-1.1,0.1-1.7,0-2.4,0.4c5.8-12.1,12.8-26.8,19.8-39.7c1.7-3,2.8-4.7,5.1-4.5c0.9,0.1,2,0.4,3,0.3
 					c-3.2,3.2-12.5,20.9-18.4,32.9c1.9-2.4,3.9-4.7,5.8-6.3c3.5-3.1,10.9-7.6,13.3-6.8c0,0-7.7,13.5-8.6,18.6c-0.6,3,0.1,3.7,1.1,3.8
 					c3.3,0.2,8.2-9.6,9.7-12.7c0.6-1.3,1.7-0.8,1,0.7C230.1,69.3,226.2,77.8,220.8,77.8z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M265.5,77.4c-3.2,0-5.2-3.4-3.3-9.2c-2.4,4.3-6.2,9.2-9.7,9.2c-1.4,0-4-0.5-4.5-3.2c-0.6-3.1,1.2-5.8,2.4-8.4
 					c-0.4,0-1.1-0.2-0.6-1.2l1.3-2.5c1.4-2.7,3-5.7,4-7.9c0.6-1.2,1.4-1.5,2.8-1.5h4.4c-1.7,1.2-2.7,2.1-4.6,6c0,0-3.2,6.6-4.5,9.3
 					c-3.5,7.5-0.4,10.4,4.2,5c4-4.7,8-13.1,10.7-18.8c0.6-1.2,1.4-1.5,2.8-1.5h3.9c-2.1,1.7-2.8,2.7-5,7.1c-2,4-4.4,9-4.8,11.4
 					c-0.6,3.1,0.4,4.2,1.4,4.3c3.5,0,7.1-6.8,9.6-12c0.6-1.3,1.7-0.8,1,0.6C274.6,69.1,270.7,77.4,265.5,77.4z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M280.3,77c-1,0.4-2,0.7-3,0.7c-8.7,0-7.1-10-3.6-10.2c1.9-3.7,4.3-8.4,6.2-12.5c1.3-2.8,3.5-5.8,6-6.2
 					c1.1-0.1,1.9,0,2.7,0.4c1.3,0.6,1,1.9-0.3,1.2c-0.7-0.3-1.6-0.4-2.3-0.1c-3.3,1.6-2.6,6.6-1.5,9.1c1.2,2.7,2.7,5.3,2.6,8.5
 					c-0.1,2.8-2.3,6.1-5.1,8l0.5,0.1c2.4,0.4,4.7-1.2,6.5-3.3c1.7-2,3.9-6.5,5.4-9.4c0.4-0.7,1.4-0.3,1.1,0.4
 					C292.8,69.8,288.4,79.5,280.3,77z M275.4,70.8c-2.3,2.3-1.4,5.7,1.4,5.7c0.5,0,1-0.1,1.4-0.3C276.8,75.3,275.5,73.6,275.4,70.8z
 					 M281.7,54.4c-1.9,3.9-5,10.2-6.8,13.3c0,0,1.6-0.1,1.5,2.3c-0.1,2.7,1.4,4.8,3,5.5c1.6-1.2,3-3.7,3.2-7.5
 					C282.9,63.6,281.2,57.7,281.7,54.4z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M344.7,53.6c-1.5,5-7.1,26.1-17.5,23.9c-3.9-0.9-3.5-6.6-2.5-9.7c-1.7,3-5.6,9.7-9.6,9.7c-2,0-4-1.2-4.5-3.3
 					c-0.6-3.1,1.2-5.8,2.4-8.4c-0.4,0-1.1-0.2-0.6-1.2l1.3-2.5c1.4-2.8,3-5.7,4-7.9c0.6-1.2,1.4-1.5,2.8-1.5h4.4
 					c-1.7,1.2-2.7,2.1-4.6,6c0,0-3.2,6.6-4.5,9.3c-3.1,6.7-0.8,9.9,2.8,6.4c4.4-4.2,10-16.8,11.7-20.2c0.5-1.2,1.4-1.5,2.7-1.5h4.4
 					c-0.6,0.6-2,1.2-2.9,2.7c-1.5,2.5-2.1,3.6-4,7.6c-0.9,1.8-6.1,13-1.5,13.2c4.1,0.3,7.8-5.6,10.6-12.5c-1-2.2-1.2-5.3-0.6-7.2
 					c1.9-6.4,7.1-6.3,5.8-3.2C344.7,53.3,344.7,53.4,344.7,53.6z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M352.2,77.8c-3.6,0-6.8-2.4-6.9-6.9c-0.1-4.3,2.4-9.7,5.5-13.5c3.7-4.3,9.1-7.1,12.3-4.7c2.7,2.1,0.6,7-4,10.5
 					c-2.2,1.7-6.9,3.2-8.9,3.2c-1.1,2.6-2.3,9.9,2.4,9.9c6.3,0,10.2-8.5,11.9-12.3c0.6-1.3,2-1.4,1.3,0.1
 					C363.3,69.8,360.2,77.8,352.2,77.8z M355.2,58.4c-1.9,2.3-3.7,5.5-4.3,6.8c1.3,0,5-1,7.6-3.2C364.4,57,364,47.7,355.2,58.4z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;"
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;"
 			 d="M368.9,63.6c-0.4,1.2-1.1,3-1.5,4.8c-2.2,8.6,3.6,9.9,7.4,4.5c2.4-3.4,4.4-7.3,5.3-9.1c0.6-1.2,1.7-1.1,1.1,0.4
 					c-1.8,3.8-5.5,13.5-12.8,13.5c-8.1,0-4.6-9.9-3.4-14.2c2.2-8.1,6.8-18.4,10.9-25.4c5.1-8.6,12.9-7.6,7.7,4
 					C380.3,49.4,375.9,57.2,368.9,63.6z M380.8,37.6c-3.5,5-9.1,17.9-11.4,23.6c5.1-5.2,10.3-13.7,13.1-20.4
 					C384,37.6,384.7,32.1,380.8,37.6z"/>
-				<path style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
-			data-10000="stroke-dashoffset:1000;" data-12000="stroke-dashoffset:0;fill:rgb(0,0,0);" d="M384.1,63.6c-0.4,1.2-1.1,3-1.5,4.8c-2.2,8.6,3.6,9.9,7.4,4.5c2.4-3.4,4.4-7.3,5.3-9.1c0.6-1.2,1.7-1.1,1.1,0.4
+				<path style="fill:#ffffff;stroke:#ffffff;stroke-width:1;stroke-miterlimit:10;stroke-dasharray:1000;stroke-dashoffset:0"
+			data-13000="stroke-dashoffset:1000;fill-opacity:0;" data-14000="stroke-dashoffset:0;fill-opacity:1;" 
+			 d="M384.1,63.6c-0.4,1.2-1.1,3-1.5,4.8c-2.2,8.6,3.6,9.9,7.4,4.5c2.4-3.4,4.4-7.3,5.3-9.1c0.6-1.2,1.7-1.1,1.1,0.4
 					c-1.8,3.8-5.5,13.5-12.8,13.5c-8.1,0-4.6-9.9-3.4-14.2c2.2-8.1,6.8-18.4,10.9-25.4c5.1-8.6,12.9-7.6,7.7,4
 					C395.6,49.4,391.2,57.2,384.1,63.6z M396.1,37.6c-3.5,5-9.1,17.9-11.4,23.6c5.1-5.2,10.3-13.7,13.1-20.4
 					C399.2,37.6,400,32.1,396.1,37.6z"/>
 			</g>
 			</svg>
+		</div>
+	</div>
+	<div id="storyendloop" data-0="display:none;" data-14000="display:block;top:100%;" data-15000="display:block;top:0%;" data-16000="display:block;top:-100%;" >
+		<div class="container">
+			<div class="column sixteen">
+				<div class="page_header">
+					<h5 class="vibes">&#10087; &nbsp; David A. Windham&nbsp;  &amp; &nbsp; Ginny L. Gast &nbsp; &#10087;</h5>
+					<h5 class="cardo">The Twenty-Seventh Of September, Two Thousand Fourteen</h4><br />
+					<img src="wp-content/themes/bml/img/swirl.png" width="100">
+			
+				</div>
+				<div id="gform">
+					<?php gravity_form(1, false, false, false, '', true); ?>
+				</div>
+				<div class="secure">
+					<p class="stripe">Payments processed by <a target="_blank" href="https://stripe.com/us/features#seamless-security">Stripe</a></p>
+				</div>
+			</div>
 		</div>
 	</div>
 

@@ -86,7 +86,7 @@
 	</div>
 	<div id="story">
 		<div id="story_wrap" data-5000="background:rgba(0,0,0,0);color:rgb(0,0,0);" data-5700="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-7000="background:rgba(0,0,0,0);color#000000;">
-			<div class="story transform" data-3400="top:-30%" data-4000="top:15%;" data-6000="top:15%;"
+			<div class="story transform" data-3400="top:-40%" data-4000="top:15%;" data-6000="top:15%;"
 			 data-6100="transform:scale(1);opacity:1;" data-7100="transform:scale(5);opacity:0;">
 					<h4 class="vibes">About 10 years ago<br /> a guy named Dave met a girl named Ginny.<br />
 					Soon after, the two would take a trip to New York City.</h4>

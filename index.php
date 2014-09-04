@@ -204,7 +204,7 @@
 			</svg>
 		</div>
 	</div>
-	<div id="storyendloop" data-0="display:none;" data-14000="display:block;top:100%;" data-15000="display:block;top:0%;" data-16000="display:block;top:-100%;" >
+	<div id="storyendloop" data-0="display:none;" data-14000="display:block;top:100%;" data-15000="display:block;top:0%;" data-16000="display:block;top:-150%;" >
 		<div class="container">
 			<div class="column sixteen">
 				<div class="page_header">

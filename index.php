@@ -118,7 +118,7 @@
 					</div>
 			</div>
 		</div>
-		<div id="storyend" data-10000="top:-50%" data-12000="top:15%;" data-12500="top:15%;" data-13000="top:-50%">
+		<div id="storyend" data-10000="top:-50%" data-12000="top:15%;" data-12500="top:15%;" data-13000="top:-80%">
 				<h4 class="vibes">But have no worries for this one of many couples.<br />
 				Because they’re a good team and together can tackle life’s troubles.<br />
 				For it is their love that will make them last.<br />

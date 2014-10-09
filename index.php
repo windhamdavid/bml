@@ -219,6 +219,9 @@
 				<div class="secure">
 					<p class="stripe">Payments processed by <a target="_blank" href="https://stripe.com/us/features#seamless-security">Stripe</a></p>
 				</div>
+				<span class"archive" style="font-size:18px;color:#CC1414;">This site is archived.<br /> Try us @ <a style="color:#CC1414;" href="http://davidawindham.com">davidawindham.com</a> or <a style="color:#CC1414;" href="http://helloginny.com">helloginny.com</a><span>
+				<br />
+				<p style="font-size:18px;">It'll be our ten year anniversary in <div id="bmlcount2"></div></p>
 			</div>
 		</div>
 	</div>

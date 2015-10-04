@@ -2,7 +2,7 @@ _bml
 ===  
 
 A runaway fork of the [_s](https://github.com/Automattic/_s/) 
-for [http://cantbuymelove.org](http://cantbuymelove.org)
+for <del>[http://cantbuymelove.org](http://cantbuymelove.org)</del> ... [https://davidawindham.com/bml/](https://davidawindham.com/bml/)
 
 Thanks:
  
